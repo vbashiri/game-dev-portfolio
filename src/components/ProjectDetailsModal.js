@@ -28,10 +28,24 @@ class ProjectDetailsModal extends Component {
             </li>
           );
         });
-        if (this.props.data.images) {
-          var img = images.map((elem, i) => {
-            return <div key={i} data-src={elem} />;
-          });
+      }
+      if (this.props.data.images) {
+        var img = images.map((elem, i) => {
+          return <div key={i} data-src={elem} />;
+        });
+        if (this.props.data.youtube) {
+          img.splice(1, 0,
+            <div key={10} style={{ backgroundColor: "#99f", display: "flex" }}>
+              <iframe
+                src={`https://www.youtube.com/embed/${this.props.data.youtube}`}
+                style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="Embedded youtube"
+              />
+            </div>
+            );
         }
       }
     }
@@ -48,26 +62,6 @@ class ProjectDetailsModal extends Component {
         </span>
         <div className="col-md-12">
           <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}>
-            <div className="slider-tab">
-              <span
-                className="iconify slider-iconfiy"
-                data-icon="emojione:red-circle"
-                data-inline="false"
-                style={{ marginLeft: "5px" }}
-              ></span>{" "}
-              &nbsp;{" "}
-              <span
-                className="iconify slider-iconfiy"
-                data-icon="twemoji:yellow-circle"
-                data-inline="false"
-              ></span>{" "}
-              &nbsp;{" "}
-              <span
-                className="iconify slider-iconfiy"
-                data-icon="twemoji:green-circle"
-                data-inline="false"
-              ></span>
-            </div>
             <AwesomeSlider
               cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
               animation="scaleOutAnimation"

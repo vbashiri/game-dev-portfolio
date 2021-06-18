@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
 import Switch from "react-switch";
+import avatar from "../assets/images/header/Vahid.png";
 
 class Header extends Component {
   titles = [];
@@ -35,62 +36,74 @@ class Header extends Component {
     }, (props, prevProp) => true);
 
     return (
-      <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>
-        <div className="row aligner" style={{height: '100%'}}>
-          <div className="col-md-12">
-            <div>
-              <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
-              <br/>
-              <h1 className="mb-0">
-                <Typical steps={[name]} wrapper="p" />
-              </h1>
-              <div className="title-container">
-                <HeaderTitleTypeAnimation />
-              </div>
-              <Switch
-                checked={this.state.checked}
-                onChange={this.onThemeSwitchChange}
-                offColor="#baaa80"
-                onColor="#353535"
-                className="react-switch mx-auto"
-                width={90}
-                height={40}
-                uncheckedIcon={
-                  <span
-                    className="iconify"
-                    data-icon="twemoji:owl"
-                    data-inline="false"
-                    style={{
-                      display: "block",
-                      height: "100%",
-                      fontSize: 25,
-                      textAlign: "end",
-                      marginLeft: "20px",
-                      color: "#353239",
-                    }}
-                  ></span>
-                }
-                checkedIcon={
-                  <span
-                    className="iconify"
-                    data-icon="noto-v1:sun-with-face"
-                    data-inline="false"
-                    style={{
-                      display: "block",
-                      height: "100%",
-                      fontSize: 25,
-                      textAlign: "end",
-                      marginLeft: "10px",
-                      color: "#353239",
-                    }}
-                  ></span>
-                }
-                id="icon-switch"
-              />
-            </div>
+      <div
+        id="home"
+        className="container"
+        style={{
+          flex: 2,
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: "center",
+          alignItems: 'center',
+        }}
+      >
+        <div >
+          <h1 style={{ color: "#f4f4f4", margin: '0 auto', marginTop: 10, fontSize: '350%', textAlign: 'center' }}>
+            <span>About me</span>
+          </h1>
+          <div
+            style={{
+              width: '200px',
+              height: '4px',
+              borderRadius: 3,
+              backgroundColor: '#f4f4f4',
+              margin: '0 auto',
+              marginBottom: 50
+            }}
+          />
+        </div>
+        <div className= "row">
+          <div
+            className= "col-xl-4"
+          >
+            <img
+              src={avatar}
+              style={{
+                width: '200px',
+                height: '200px',
+                borderRadius: '50%',
+                display: 'block',
+                marginLeft: 'auto',
+                marginRight: 'auto',
+                marginBottom: 10
+              }}
+            />
+            <h1 style={{ color: "#f4f4f4", marginBottom: 50, textAlign: 'center' }}>
+              <span style={{ fontSize: '4.0vh' }}>Vahid Bashiri</span>
+            </h1>
+          </div>
+          <div
+            className="col-xl-8"
+            style={{display: 'flex', alignItems: 'center'}}
+          >
+            <h3
+              style={{
+                color: "#f4f4f4",
+                marginBottom: 20,
+                textAlign: 'justify',
+                textAlignLast: 'center',
+                maxWidth: "100%",
+                marginLeft: 10,
+                marginRight: 10,
+              }}
+            >
+            <span style={{ fontSize: '2.5vh' }}>
+              I have an overall six years of programming experience in the educational and professional environments. I’m good at communication and work collaboratively in a team. I have experience in making games according to a business plan as well as freelance prototypes and I’m eager to learn. I look forward to working as a game developer in Causa Creations.
+            </span>
+            </h3>
           </div>
         </div>
-      </header>
+      </div>
     );
   }
 }
