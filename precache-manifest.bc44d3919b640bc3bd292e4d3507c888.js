@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "540ec16afa77e3e4dee0ca181e62290b",
+    "revision": "bc03dacbaefbdc927d56dbcb281327d7",
     "url": "/react-frontend-dev-portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-frontend-dev-portfolio/static/css/2.a2524b97.chunk.css"
   },
   {
-    "revision": "18fcac863a1d0507ddd5",
+    "revision": "79d02a9646550fd41b8d",
     "url": "/react-frontend-dev-portfolio/static/css/main.4daf3768.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-frontend-dev-portfolio/static/js/2.e832ecc4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "18fcac863a1d0507ddd5",
-    "url": "/react-frontend-dev-portfolio/static/js/main.6ab3d4fc.chunk.js"
+    "revision": "79d02a9646550fd41b8d",
+    "url": "/react-frontend-dev-portfolio/static/js/main.b95cadf8.chunk.js"
   },
   {
     "revision": "8b91e79b160a90e30d4f",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-frontend-dev-portfolio/static/media/StunningLook.12f917f8.PNG"
   },
   {
-    "revision": "9254db1dc4c14050a0e1a2978a39595c",
-    "url": "/react-frontend-dev-portfolio/static/media/Vahid.9254db1d.png"
+    "revision": "e124075c42596b6a3191671c21ab3eaf",
+    "url": "/react-frontend-dev-portfolio/static/media/Vahid.e124075c.png"
   },
   {
     "revision": "bb6e413acecd90fa40ff169d933bcb88",
