@@ -31,11 +31,13 @@ class ProjectDetailsModal extends Component {
       }
       if (this.props.data.images) {
         var img = images.map((elem, i) => {
-          return <div key={i} data-src={elem} />;
+          return <div style={{ height: '100%', width: '100%', flex: 1}}>
+              <img key={i} src={elem} style={{ objectFit: 'contain', height: '75vh'}}/>
+          </div>;
         });
         if (this.props.data.youtube) {
           img.splice(1, 0,
-            <div key={10} style={{ backgroundColor: "#99f", display: "flex" }}>
+            <div key={10} style={{ backgroundColor: "#D7CAAA", display: "flex" }}>
               <iframe
                 src={`https://www.youtube.com/embed/${this.props.data.youtube}`}
                 style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
@@ -52,7 +54,7 @@ class ProjectDetailsModal extends Component {
     return (
       <Modal
         {...this.props}
-        size="lg"
+        size="xl"
         aria-labelledby="contained-modal-title-vcenter"
         centered
         className="modal-inside"
@@ -61,11 +63,12 @@ class ProjectDetailsModal extends Component {
           <i className="fas fa-times fa-3x close-icon"></i>
         </span>
         <div className="col-md-12">
-          <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}>
+          <div className="col-md-10 mx-auto" style={{marginBottom: '50px', flex: 1, height: "75vh" }}>
             <AwesomeSlider
               cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
               animation="scaleOutAnimation"
               className="slider-image"
+              style={{ height: "100%", width: "100%" }}
             >
               {img}
             </AwesomeSlider>

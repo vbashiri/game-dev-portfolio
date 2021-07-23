@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import $ from "jquery";
+import { Parallax, Background } from "react-parallax";
 import "./App.scss";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -8,19 +9,31 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Banner from "./components/Banner";
+import Sketches from "./components/Sketches";
+
 
 import iis from "./assets/images/experience/iis.png";
 import colony from "./assets/images/experience/colony11.png";
 import funtory from "./assets/images/experience/funtory.png";
 import sut from "./assets/images/experience/sut.png";
-import iust from "./assets/images/experience/iust.png";
 
+import iust from "./assets/images/experience/iust.png";
 import playground0 from "./assets/images/projects/playground/playground_icon.png";
 import playground1 from "./assets/images/projects/playground/mushroom.png";
 import playground2 from "./assets/images/projects/playground/spidercube.png";
+
 import playground3 from "./assets/images/projects/playground/lake.png";
 
-import jumpup0 from "./assets/images/projects/jumpup/jump_up.png";
+import jumpUp0 from "./assets/images/projects/jumpup/jump_up.png";
+
+import ged from "./assets/images/arts/concept-art/Ged.PNG";
+import blueFloyed from "./assets/images/arts/concept-art/BlueFloyed.PNG";
+import veilOfDiscord from "./assets/images/arts/concept-art/VeilOfDiscord.PNG";
+import stunningLook from "./assets/images/arts/concept-art/StunningLook.PNG";
+import deatVoodoo from "./assets/images/arts/concept-art/DeathVoodoo.PNG";
+
+
+import parallexBackground from "./assets/images/arts/ged.png";
 
 class App extends Component {
 
@@ -86,7 +99,7 @@ class App extends Component {
           {
             title: "Jump Up",
             images: [
-              jumpup0,
+              jumpUp0,
             ],
             youtube: "gA4X6anOjBM",
             startDate: 2020,
@@ -125,10 +138,23 @@ class App extends Component {
             startDate: 2020,
           },
         ],
+        arts: [
+          {
+            title: "Sketches",
+            images: [
+              ged,
+              blueFloyed,
+              veilOfDiscord,
+              stunningLook,
+              deatVoodoo,
+            ],
+          },
+          ],
         basic_info: {
           section_name: {
             experience: "My Journey",
-            projects: "Projects"
+            projects: "Projects",
+            sketches: "Sketches"
           }
         }
       },
@@ -185,8 +211,12 @@ class App extends Component {
           resumeProjects={this.state.resumeData.projects}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
-        <Skills
-          sharedSkills={this.state.sharedData.skills}
+        <Parallax bgImage={parallexBackground} strength={500}>
+          <div style={{ height: window.innerHeight }}>
+          </div>
+        </Parallax>
+        <Sketches
+          resumeProjects={this.state.resumeData.arts}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
 

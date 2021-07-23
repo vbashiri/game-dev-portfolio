@@ -98,7 +98,7 @@ class Header extends Component {
               }}
             >
             <span style={{ fontSize: '2.5vh' }}>
-              I have an overall six years of programming experience in the educational and professional environments. I’m good at communication and work collaboratively in a team. I have experience in making games according to a business plan as well as freelance prototypes and I’m eager to learn. I look forward to working as a game developer in Causa Creations.
+              I have an overall six years of programming experience in the educational and professional environments. I’m good at communication and work collaboratively in a team. I have experience in making games according to a business plan as well as freelance prototypes and I’m eager to learn.
             </span>
             </h3>
           </div>
