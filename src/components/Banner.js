@@ -22,7 +22,8 @@ class Banner extends Component {
         width: '100%',
         display: 'flex',
         position: 'relative',
-        overflowX: 'hidden'
+        overflowX: 'hidden',
+        overflowY: 'hidden',
       }}>
         <div id="sky"
              style={{
