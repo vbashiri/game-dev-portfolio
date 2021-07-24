@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "beba4c4071f57b2efdca529180d2ccd0",
+    "revision": "305ee493f41e1f5ffe272b043b5eb238",
     "url": "/game-dev-portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/game-dev-portfolio/static/css/2.a2524b97.chunk.css"
   },
   {
-    "revision": "9b73c391159a73014f14",
+    "revision": "6e2cf40c7a36bcff8645",
     "url": "/game-dev-portfolio/static/css/main.4daf3768.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/game-dev-portfolio/static/js/2.e832ecc4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9b73c391159a73014f14",
-    "url": "/game-dev-portfolio/static/js/main.4af4bb1a.chunk.js"
+    "revision": "6e2cf40c7a36bcff8645",
+    "url": "/game-dev-portfolio/static/js/main.345c126d.chunk.js"
   },
   {
     "revision": "033b67dcae4a6e4db01c",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/game-dev-portfolio/static/media/DeathVoodoo.b99d1e17.PNG"
   },
   {
-    "revision": "6681f64e7ac548e1c5260a1d5cd195f2",
-    "url": "/game-dev-portfolio/static/media/Ged.6681f64e.PNG"
+    "revision": "591fe077f40bfc868cab1573dd44e217",
+    "url": "/game-dev-portfolio/static/media/Ged.591fe077.PNG"
   },
   {
     "revision": "12f917f8979ae0a7d77fc8edf63cae87",
