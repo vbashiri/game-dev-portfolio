@@ -38,19 +38,19 @@ class Banner extends Component {
                alignItems: 'flex-end',
              }}
         >
-          <img src={sky} style={{flex: 1 ,aspectRatio: 1.77}} />
+          <img src={sky} style={{flex: 1 ,aspectRatio: 3.2}} />
         </div>
         <div id="cloud0"
              style={{height: bannerHeight}}
              className="cloud cloud0"
         >
-          <img src={bCloud1} style={{flex: 1 ,aspectRatio: 1.77}} />
+          <img src={bCloud1} style={{flex: 1 ,aspectRatio: 3.2}} />
         </div>
         <div id="cloud1"
              style={{height: bannerHeight}}
              className="cloud cloud1"
         >
-          <img src={bCloud1} style={{flex: 1 ,aspectRatio: 1.77}} />
+          <img src={bCloud1} style={{flex: 1 ,aspectRatio: 3.2}} />
         </div>
         <div id="cloud2"
              className="cloud cloud2"
@@ -58,7 +58,7 @@ class Banner extends Component {
                height: bannerHeight,
              }}
         >
-          <img src={bCloud2} style={{flex: 1 ,aspectRatio: 1.77}} />
+          <img src={bCloud2} style={{flex: 1 ,aspectRatio: 3.2}} />
         </div>
         <div id="cloud3"
              className="cloud cloud3"
@@ -66,7 +66,7 @@ class Banner extends Component {
                height: bannerHeight,
              }}
         >
-          <img src={bCloud3} style={{flex: 1 ,aspectRatio: 1.77}} />
+          <img src={bCloud3} style={{flex: 1 ,aspectRatio: 3.2}} />
         </div>
         <div id="cloud4"
              className="cloud cloud4"
@@ -74,7 +74,7 @@ class Banner extends Component {
                height: bannerHeight,
              }}
         >
-          <img src={fCloud1} style={{flex: 1 ,aspectRatio: 1.77}} />
+          <img src={fCloud1} style={{flex: 1 ,aspectRatio: 3.2}} />
         </div>
         <div id="cloud5"
              className="cloud cloud5"
@@ -82,7 +82,7 @@ class Banner extends Component {
                height: bannerHeight,
              }}
         >
-          <img src={fCloud2} style={{flex: 1 ,aspectRatio: 1.77}} />
+          <img src={fCloud2} style={{flex: 1 ,aspectRatio: 3.2}} />
         </div>
         <div id="cloud6"
              className="cloud6 cloud"
@@ -90,7 +90,7 @@ class Banner extends Component {
                height: bannerHeight,
              }}
         >
-          <img src={fCloud3} style={{flex: 1 ,aspectRatio: 1.77}} />
+          <img src={fCloud3} style={{flex: 1 ,aspectRatio: 3.2}} />
         </div>
         <div id="cloud7"
              className="cloud7 cloud"
@@ -98,7 +98,7 @@ class Banner extends Component {
                height: bannerHeight,
              }}
         >
-          <img src={fCloud2} style={{flex: 1 ,aspectRatio: 1.77}} />
+          <img src={fCloud2} style={{flex: 1 ,aspectRatio: 3.2}} />
         </div>
         <div id="forground"
              style={{
