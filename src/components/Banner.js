@@ -15,7 +15,7 @@ import fCloud3 from '../assets/images/banner/f_cload3.png'
 class Banner extends Component {
 
   render() {
-    var bannerHeight = window.innerHeight > 1200 ? 600 : window.innerHeight / 2;
+    var bannerHeight = window.innerHeight < window.innerWidth ? window.innerHeight / 2 : window.innerWidth / 2;
     return (
       <div id="banner" style={{
         height: bannerHeight,
