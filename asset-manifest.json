@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/game-dev-portfolio/static/css/main.4daf3768.chunk.css",
-    "main.js": "/game-dev-portfolio/static/js/main.345c126d.chunk.js",
-    "main.js.map": "/game-dev-portfolio/static/js/main.345c126d.chunk.js.map",
+    "main.js": "/game-dev-portfolio/static/js/main.d416303d.chunk.js",
+    "main.js.map": "/game-dev-portfolio/static/js/main.d416303d.chunk.js.map",
     "runtime-main.js": "/game-dev-portfolio/static/js/runtime-main.0a22a3f3.js",
     "runtime-main.js.map": "/game-dev-portfolio/static/js/runtime-main.0a22a3f3.js.map",
     "static/css/2.a2524b97.chunk.css": "/game-dev-portfolio/static/css/2.a2524b97.chunk.css",
     "static/js/2.e832ecc4.chunk.js": "/game-dev-portfolio/static/js/2.e832ecc4.chunk.js",
     "static/js/2.e832ecc4.chunk.js.map": "/game-dev-portfolio/static/js/2.e832ecc4.chunk.js.map",
     "index.html": "/game-dev-portfolio/index.html",
-    "precache-manifest.a39fbc0b286ba1714b6a0efd1ccbd3ab.js": "/game-dev-portfolio/precache-manifest.a39fbc0b286ba1714b6a0efd1ccbd3ab.js",
+    "precache-manifest.3f37cabbba87787b00eac0254bc734f0.js": "/game-dev-portfolio/precache-manifest.3f37cabbba87787b00eac0254bc734f0.js",
     "service-worker.js": "/game-dev-portfolio/service-worker.js",
     "static/css/2.a2524b97.chunk.css.map": "/game-dev-portfolio/static/css/2.a2524b97.chunk.css.map",
     "static/css/main.4daf3768.chunk.css.map": "/game-dev-portfolio/static/css/main.4daf3768.chunk.css.map",
@@ -18,7 +18,7 @@
     "static/media/DeathVoodoo.PNG": "/game-dev-portfolio/static/media/DeathVoodoo.b99d1e17.PNG",
     "static/media/Ged.PNG": "/game-dev-portfolio/static/media/Ged.591fe077.PNG",
     "static/media/StunningLook.PNG": "/game-dev-portfolio/static/media/StunningLook.12f917f8.PNG",
-    "static/media/Vahid.png": "/game-dev-portfolio/static/media/Vahid.e124075c.png",
+    "static/media/Vahid.webp": "/game-dev-portfolio/static/media/Vahid.3193a653.webp",
     "static/media/VeilOfDiscord.PNG": "/game-dev-portfolio/static/media/VeilOfDiscord.bb6e413a.PNG",
     "static/media/f_cload1.png": "/game-dev-portfolio/static/media/f_cload1.9dbd475a.png",
     "static/media/ged.png": "/game-dev-portfolio/static/media/ged.fc532754.png",
@@ -37,6 +37,6 @@
     "static/css/2.a2524b97.chunk.css",
     "static/js/2.e832ecc4.chunk.js",
     "static/css/main.4daf3768.chunk.css",
-    "static/js/main.345c126d.chunk.js"
+    "static/js/main.d416303d.chunk.js"
   ]
 }

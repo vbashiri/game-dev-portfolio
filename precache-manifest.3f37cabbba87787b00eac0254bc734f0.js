@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "305ee493f41e1f5ffe272b043b5eb238",
+    "revision": "ba3311c3ec98c935b75624dde5df0692",
     "url": "/game-dev-portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/game-dev-portfolio/static/css/2.a2524b97.chunk.css"
   },
   {
-    "revision": "6e2cf40c7a36bcff8645",
+    "revision": "1cc4acbf7bcd364daf5e",
     "url": "/game-dev-portfolio/static/css/main.4daf3768.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/game-dev-portfolio/static/js/2.e832ecc4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6e2cf40c7a36bcff8645",
-    "url": "/game-dev-portfolio/static/js/main.345c126d.chunk.js"
+    "revision": "1cc4acbf7bcd364daf5e",
+    "url": "/game-dev-portfolio/static/js/main.d416303d.chunk.js"
   },
   {
     "revision": "033b67dcae4a6e4db01c",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/game-dev-portfolio/static/media/StunningLook.12f917f8.PNG"
   },
   {
-    "revision": "e124075c42596b6a3191671c21ab3eaf",
-    "url": "/game-dev-portfolio/static/media/Vahid.e124075c.png"
+    "revision": "3193a653e210cac540d8f70e1330d452",
+    "url": "/game-dev-portfolio/static/media/Vahid.3193a653.webp"
   },
   {
     "revision": "bb6e413acecd90fa40ff169d933bcb88",
