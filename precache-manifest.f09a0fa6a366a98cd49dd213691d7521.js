@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ba3311c3ec98c935b75624dde5df0692",
+    "revision": "2f5b02a694e64ace5e20ea03b35fa0fb",
     "url": "/game-dev-portfolio/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/game-dev-portfolio/static/css/2.a2524b97.chunk.css"
   },
   {
-    "revision": "1cc4acbf7bcd364daf5e",
-    "url": "/game-dev-portfolio/static/css/main.4daf3768.chunk.css"
+    "revision": "f80d1c7826fc89a63b50",
+    "url": "/game-dev-portfolio/static/css/main.b04cd043.chunk.css"
   },
   {
     "revision": "1aeab26a7bb8808f35e7",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/game-dev-portfolio/static/js/2.e832ecc4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1cc4acbf7bcd364daf5e",
-    "url": "/game-dev-portfolio/static/js/main.d416303d.chunk.js"
+    "revision": "f80d1c7826fc89a63b50",
+    "url": "/game-dev-portfolio/static/js/main.3b85df94.chunk.js"
   },
   {
     "revision": "033b67dcae4a6e4db01c",
