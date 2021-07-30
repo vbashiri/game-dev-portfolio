@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
 import Switch from "react-switch";
-import avatar from "../assets/images/header/Vahid.png";
+import avatar from "../assets/images/header/Vahid.webp";
 
 class Header extends Component {
   titles = [];
