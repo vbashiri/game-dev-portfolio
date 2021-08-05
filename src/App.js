@@ -33,7 +33,7 @@ import stunningLook from "./assets/images/arts/concept-art/StunningLook.PNG";
 import deatVoodoo from "./assets/images/arts/concept-art/DeathVoodoo.PNG";
 
 
-import parallexBackground from "./assets/images/arts/ged.png";
+import parallexBackground from "./assets/images/arts/concept-art/Ged.PNG";
 
 class App extends Component {
 
