@@ -33,7 +33,6 @@ class Sketches extends Component {
                     alt="projectImages"
                     style={{width: "100%", aspectRatio: 1, marginBottom: 0, paddingBottom: 0, position: 'relative', objectFit: "contain"}}
                   />
-                  <span className="project-date">{projects.startDate}</span>
                   <br />
                   <p className="project-title-settings mt-3">
                     {projects.title}
