@@ -6,6 +6,7 @@ import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
 class ProjectDetailsModal extends Component {
   render() {
+    var sideLength = window.innerWidth < window.innerHeight ? "75vw" : "75vh";
     if (this.props.data) {
       const technologies = this.props.data.technologies;
       const images = this.props.data.images;
@@ -32,12 +33,18 @@ class ProjectDetailsModal extends Component {
       if (this.props.data.images) {
         var img = images.map((elem, i) => {
           return <div style={{ height: '100%', width: '100%', flex: 1}}>
-              <img key={i} src={elem} style={{ objectFit: 'contain', height: '75vh'}}/>
+              <img key={i} src={elem}
+                   style={{ objectFit: 'contain',
+                     maxHeight: sideLength,
+                     maxWeight: sideLength,
+                     width: '100%',
+                     height: 'auto'}}
+              />
           </div>;
         });
         if (this.props.data.youtube) {
           img.splice(1, 0,
-            <div key={10} style={{ backgroundColor: "#D7CAAA", display: "flex" }}>
+            <div key={10} style={{ backgroundColor: "#fff", display: "flex" }}>
               <iframe
                 src={`https://www.youtube.com/embed/${this.props.data.youtube}`}
                 style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
@@ -63,7 +70,7 @@ class ProjectDetailsModal extends Component {
           <i className="fas fa-times fa-3x close-icon"></i>
         </span>
         <div className="col-md-12">
-          <div className="col-md-10 mx-auto" style={{marginBottom: '50px', flex: 1, height: "75vh" }}>
+          <div className="col-md-10 mx-auto" style={{marginBottom: '50px', flex: 1, height: sideLength }}>
             <AwesomeSlider
               cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
               animation="scaleOutAnimation"
