@@ -16,14 +16,28 @@ class Experience extends Component {
 
         var mainTech = mainTechnologies.map((technology, i) => {
           return (
-            <Badge pill className="main-badge mr-2 mb-2" key={i}>
+            <Badge
+              pill
+              className="main-badge
+              mt-xl-2 mt-md-2 mt-sm-2
+              mr-xl-4 mr-md-3 mr-sm-2
+              mb-xl-4 mb-md-3 mb-sm-2"
+              key={i}
+            >
               {technology}
             </Badge>
           );
         });
         var tech = technologies.map((technology, i) => {
           return (
-            <Badge pill className="experience-badge mr-2 mb-2" key={i}>
+            <Badge
+              pill
+              className="experience-badge
+              mt-xl-4 mt-md-3 mt-sm-2
+              mr-xl-4 mr-md-3 mr-sm-2
+              mb-xl-2 mb-md-2 mb-sm-2"
+              key={i}
+            >
               {technology}
             </Badge>
           );
@@ -31,6 +45,8 @@ class Experience extends Component {
         return (
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
+            contentStyle={{ paddingLeft: "20px" }}
+            dateClassName="element-date"
             date={work.years}
             iconStyle={{
               background: "#AE944F",
@@ -44,15 +60,15 @@ class Experience extends Component {
               {mainTech}
             </div>
 
-            <h3
+            <h1
               className="vertical-timeline-element-title"
-              style={{ textAlign: "left" }}
+              style={{ textAlign: "left", fontSize: "2.8vmin" }}
             >
               {work.title}
-            </h3>
+            </h1>
             <h4
               className="vertical-timeline-element-subtitle"
-              style={{ textAlign: "left" }}
+              style={{ textAlign: "left", fontSize: "1.6vmin", marginLeft: "5px" }}
             >
               {work.company}
             </h4>
@@ -66,7 +82,7 @@ class Experience extends Component {
       <section id="resume" className="pb-5">
         <div className="col-md-12 mx-auto">
           <div className="col-md-12">
-            <h1 className="section-title" style={{ color: "black" }}>
+            <h1 className="section-title" style={{ color: "black", fontSize: "300%" }}>
               <span className="text-black" style={{ textAlign: "center" }}>
                 {sectionName}
               </span>

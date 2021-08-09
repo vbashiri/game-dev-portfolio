@@ -228,10 +228,14 @@ header h1 {
 	text-align: center;
 }
 
+.experience-root {
+	width: 100%
+}
+
 .main-badge {
-	font-size: 13px !important;
+	font-size: 2vmin !important;
 	text-align: left !important;
-	padding: 5px 8px 5px 8px !important;
+	padding: 0.7vmin 1.2vmin 0.7vmin 1.2vmin !important;
 	vertical-align: baseline;
 	background-color: #AE944F !important;
 	color: white;
@@ -240,9 +244,9 @@ header h1 {
 }
 
 .experience-badge {
-	font-size: 11px !important;
+	font-size: 1.6vmin !important;
 	text-align: left !important;
-	padding: 5px 8px 5px 8px !important;
+	padding: 0.7vmin 1.2vmin 0.7vmin 1.2vmin !important;
 	vertical-align: baseline;
 	background-color: #f9f5e9 !important;
 	color: black;
@@ -250,9 +254,19 @@ header h1 {
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.vertical-timeline {
+	max-width: 98% !important;
+}
+
+
 .vertical-timeline-element-date {
 	padding: 0 !important;
 	margin: 0 !important;
+	font-size: 80px;
+}
+
+.element-date {
+	font-size: 1.5vmin !important;
 }
 
 @media only screen and (max-width: 1170px) {

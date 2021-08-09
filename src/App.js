@@ -46,7 +46,8 @@ class App extends Component {
           {
             technologies: ["JumpUp"],
             mainTech: ["Unity", "C#"],
-            years: "2021.5",
+            years: "2021.5 - Now" +
+              "",
             title: "Game Developer",
             company: "Funtory",
             companyIcon: funtory,
