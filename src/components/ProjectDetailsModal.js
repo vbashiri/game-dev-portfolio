@@ -43,7 +43,7 @@ class ProjectDetailsModal extends Component {
           </div>;
         });
         if (this.props.data.youtube) {
-          img.splice(1, 0,
+          img.splice(0, 0,
             <div key={10} style={{ backgroundColor: "#fff", display: "flex" }}>
               <iframe
                 src={`https://www.youtube.com/embed/${this.props.data.youtube}`}

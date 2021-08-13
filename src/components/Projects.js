@@ -29,7 +29,7 @@ class Projects extends Component {
               <div className="foto" onClick={() => detailsModalShow(projects)}>
                 <div className="col-sm-10 col-md-10 col-lg-10 col-xl-6">
                   <img
-                    src={projects.images[0]}
+                    src={projects.thumbnail}
                     alt="projectImages"
                     style={{width: "100%", aspectRatio: 1, marginBottom: 0, paddingBottom: 0, position: 'relative', objectFit: "contain"}}
                   />
