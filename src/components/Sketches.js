@@ -46,9 +46,9 @@ class Sketches extends Component {
     }
 
     return (
-      <section id="portfolio">
+      <section id="sketches">
         <div className="col-md-12 col-xl-12 col-lg-12">
-          <h1 className="section-title" style={{ color: "black", fontSize: "300%" }}>
+          <h1 className="section-title" style={{ color: "#f4f4f4", fontSize: "300%" }}>
             <span>{sectionName}</span>
           </h1>
           <div className="row">
