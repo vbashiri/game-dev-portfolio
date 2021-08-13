@@ -18,13 +18,28 @@ import funtory from "./assets/images/experience/funtory.png";
 import sut from "./assets/images/experience/sut.png";
 
 import iust from "./assets/images/experience/iust.png";
+
+import jumpUp0 from "./assets/images/projects/jumpup/jump_up.png";
+
 import playground0 from "./assets/images/projects/playground/playground_icon.png";
 import playground1 from "./assets/images/projects/playground/mushroom.png";
 import playground2 from "./assets/images/projects/playground/spidercube.png";
-
 import playground3 from "./assets/images/projects/playground/lake.png";
 
-import jumpUp0 from "./assets/images/projects/jumpup/jump_up.png";
+import core0 from "./assets/images/projects/core/Core.png"
+import core1 from "./assets/images/projects/core/core1.png"
+import core2 from "./assets/images/projects/core/core2.png"
+import core3 from "./assets/images/projects/core/core3.png"
+
+import rebel0 from "./assets/images/projects/rebel/Rose.png"
+import rebel1 from "./assets/images/projects/rebel/Rebel1.png"
+import rebel2 from "./assets/images/projects/rebel/Rebel2.png"
+import rebel3 from "./assets/images/projects/rebel/Rebel3.png"
+import rebel4 from "./assets/images/projects/rebel/Rebel4.png"
+
+import waterfall0 from "./assets/images/projects/waterfall/waterfall0.png"
+import waterfall1 from "./assets/images/projects/waterfall/waterfall1.png"
+import waterfall2 from "./assets/images/projects/waterfall/waterfall2.png"
 
 import ged from "./assets/images/arts/concept-art/Ged.PNG";
 import blueFloyed from "./assets/images/arts/concept-art/BlueFloyed.PNG";
@@ -46,8 +61,7 @@ class App extends Component {
           {
             technologies: ["JumpUp"],
             mainTech: ["Unity", "C#"],
-            years: "2021.5 - Now" +
-              "",
+            years: "2021.5 - Now",
             title: "Game Developer",
             company: "Funtory",
             companyIcon: funtory,
@@ -77,7 +91,7 @@ class App extends Component {
             companyIcon: sut,
           },
           {
-            technologies: ["Hardware Engineering"],
+            technologies: ["Major: Hardware Engineering"],
             mainTech: [],
             years: "2013.09 - 2018.06",
             title: "Computer Engineering",
@@ -88,8 +102,8 @@ class App extends Component {
         projects: [
           {
             title: "Playground",
+            thumbnail: playground0,
             images: [
-              playground0,
               playground1,
               playground2,
               playground3,
@@ -99,6 +113,7 @@ class App extends Component {
           },
           {
             title: "Jump Up",
+            thumbnail: jumpUp0,
             images: [
               jumpUp0,
             ],
@@ -106,42 +121,44 @@ class App extends Component {
             startDate: 2020,
           },
           {
-            title: "Rebel",
+            title: "Core",
+            thumbnail: core0,
             images: [
-              playground0,
-              playground1,
-              playground2,
-              playground3,
+              core1,
+              core2,
+              core3,
             ],
-            youtube: "o1SbL0i7x1M",
-            startDate: 2020,
+            youtube: "5lT0E_rKQwY",
+            startDate: 2019,
           },
           {
-            title: "Core",
+            title: "Rebel",
+            thumbnail: rebel0,
             images: [
-              playground0,
-              playground1,
-              playground2,
-              playground3,
+              rebel1,
+              rebel2,
+              rebel3,
+              rebel4,
             ],
             youtube: "o1SbL0i7x1M",
-            startDate: 2020,
+            startDate: 2019,
           },
+
           {
             title: "Waterfall",
+            thumbnail: waterfall0,
             images: [
-              playground0,
-              playground1,
-              playground2,
-              playground3,
+              waterfall1,
+              waterfall2,
             ],
             youtube: "o1SbL0i7x1M",
-            startDate: 2020,
+            startDate: 2015,
           },
         ],
         arts: [
           {
             title: "Sketches",
+            thumbnail: ged,
             images: [
               ged,
               blueFloyed,
