@@ -6,7 +6,7 @@ import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
 class ProjectDetailsModal extends Component {
   render() {
-    var sideLength = window.innerWidth < window.innerHeight ? "75vw" : "75vh";
+    var sideLength = this.props.desc ? "65vmin" : "75vmin";
     if (this.props.data) {
       const technologies = this.props.data.technologies;
       const images = this.props.data.images;
@@ -57,6 +57,11 @@ class ProjectDetailsModal extends Component {
             );
         }
       }
+      if (this.props.data.description) {
+        description = this.props.data.description.split('\n').map(i => {
+          return <p className="modal-description">{i}</p>
+        });
+      }
     }
     return (
       <Modal
@@ -80,8 +85,8 @@ class ProjectDetailsModal extends Component {
               {img}
             </AwesomeSlider>
           </div>
-          <div className="col-md-10 mx-auto">
-            <h3 style={{ padding: "5px 5px 0 5px" }}>
+          <div className="col-md-10 mx-auto" style={{ height: this.props.desc && "17vmin" }}>
+            <h1 style={{ padding: "5px 5px 5px 5px" }}>
               {title}
               {url ? (
                 <a
@@ -96,11 +101,8 @@ class ProjectDetailsModal extends Component {
                   ></i>
                 </a>
               ) : null}
-            </h3>
-            <p className="modal-description">{description}</p>
-            <div className="col-md-12 text-center">
-              <ul className="list-inline mx-auto">{tech}</ul>
-            </div>
+            </h1>
+            {description}
           </div>
         </div>
       </Modal>

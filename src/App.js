@@ -102,6 +102,9 @@ class App extends Component {
         projects: [
           {
             title: "Playground",
+            url: "https://moolfa.itch.io/playground",
+            description: "o    Personal project which each level is a minimal prototype\n" +
+              "o    Implemented different challenging mechanics such as water simulation and shader based features\n",
             thumbnail: playground0,
             images: [
               playground1,
@@ -113,6 +116,9 @@ class App extends Component {
           },
           {
             title: "Jump Up",
+            url: "https://play.google.com/store/apps/details?id=com.funtory.jumpdunk",
+            description: "o    Extended the game which increased revenue by 100%\n" +
+              "o    Polished existing features and worked closely with game designer\n",
             thumbnail: jumpUp0,
             images: [
               jumpUp0,
@@ -122,6 +128,9 @@ class App extends Component {
           },
           {
             title: "Core",
+            url: "https://www.dropbox.com/s/e4moj0qsm31rzfw/core.apk?dl=0",
+            description: "o    Designed and developed game from scratch\n" +
+              "o    Managed team of 3 people\n",
             thumbnail: core0,
             images: [
               core1,
@@ -133,6 +142,9 @@ class App extends Component {
           },
           {
             title: "Rebel",
+            url: "https://moolfa.itch.io/rebel",
+            description: "o    Designed and developed game logics\n" +
+              "o    Worked on character design and animations\n",
             thumbnail: rebel0,
             images: [
               rebel1,
@@ -140,18 +152,21 @@ class App extends Component {
               rebel3,
               rebel4,
             ],
-            youtube: "o1SbL0i7x1M",
+            youtube: "kRbxADt-gVc",
             startDate: 2019,
           },
 
           {
             title: "Waterfall",
+            url: "https://hvbashiri.itch.io/waterfall",
+            description: "o    Final project of fundamentals of game design course \n" +
+              "o    Worked on character animations and core mechanics\n" +
+              "o    Worked as a member of 5 people team\n",
             thumbnail: waterfall0,
             images: [
               waterfall1,
               waterfall2,
             ],
-            youtube: "o1SbL0i7x1M",
             startDate: 2015,
           },
         ],
@@ -172,7 +187,7 @@ class App extends Component {
           section_name: {
             experience: "My Journey",
             projects: "Projects",
-            sketches: "Sketches"
+            sketches: "Life Interests"
           }
         }
       },
