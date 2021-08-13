@@ -21,13 +21,13 @@ class Sketches extends Component {
       var projects = this.props.resumeProjects.map(function (projects) {
         return (
           <div
-            className="col-sm-12 col-md-6 col-lg-6 col-xl-4"
+            className="col-sm-12"
             key={projects.title}
             style={{ cursor: "pointer" }}
           >
             <span className="portfolio-item d-block">
               <div className="foto" onClick={() => detailsModalShow(projects)}>
-                <div className="col-sm-10 col-md-10 col-lg-10 col-xl-6">
+                <div >
                   <img
                     src={projects.images[0]}
                     alt="projectImages"
@@ -47,12 +47,43 @@ class Sketches extends Component {
 
     return (
       <section id="portfolio">
-        <div className="col-md-12">
+        <div className="col-md-12 col-xl-12 col-lg-12">
           <h1 className="section-title" style={{ color: "black", fontSize: "300%" }}>
             <span>{sectionName}</span>
           </h1>
-          <div className="col-md-12 mx-auto">
-            <div className="row mx-auto">{projects}</div>
+          <div className="row">
+            <div className="col-md-10 col-lg-10 col-xl-3 mx-auto">
+              <div className="mx-auto">{projects}</div>
+            </div>
+            <div
+              className="col-md-10 col-lg-10 col-xl-5 mx-auto"
+              style={{display: 'flex', alignItems: 'center'}}
+            >
+              <h3
+                style={{
+                  color: "#f4f4f4",
+                  marginBottom: 20,
+                  textAlign: 'justify',
+                  textAlignLast: 'left',
+                  maxWidth: "100%",
+                  marginLeft: 10,
+                  marginRight: 10,
+                }}
+              >
+                <span style={{ fontSize: '2.5vh' }}>
+                  I like designing characters and drawing fan art as a hobby.
+                  Video games have always been my secret getaway tho.
+                  Online games which I can play with my friends are my favorite.
+                  Also, I like playing indie games when I have considerable free time.
+                  On top of that, I tend to watch movies and series.
+                  When I get bored of all these things,
+                  listening to rock/metal music and playing sports like futsal and ping pong is the way to go.
+                </span>
+                <p style={{ fontSize: '2.5vh' }}>
+                  Here is some of my sketches.
+                </p>
+              </h3>
+            </div>
           </div>
           <ProjectDetailsModal
             show={this.state.detailsModalShow}
