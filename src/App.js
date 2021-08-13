@@ -20,6 +20,9 @@ import sut from "./assets/images/experience/sut.png";
 import iust from "./assets/images/experience/iust.png";
 
 import jumpUp0 from "./assets/images/projects/jumpup/jump_up.png";
+import jumpUp1 from "./assets/images/projects/jumpup/jumpup1.jpg";
+import jumpUp2 from "./assets/images/projects/jumpup/jumpup2.jpg";
+import jumpUp3 from "./assets/images/projects/jumpup/jumpup3.jpg";
 
 import playground0 from "./assets/images/projects/playground/playground_icon.png";
 import playground1 from "./assets/images/projects/playground/mushroom.png";
@@ -121,7 +124,9 @@ class App extends Component {
               "o    Polished existing features and worked closely with game designer\n",
             thumbnail: jumpUp0,
             images: [
-              jumpUp0,
+              jumpUp1,
+              jumpUp2,
+              jumpUp3
             ],
             youtube: "gA4X6anOjBM",
             startDate: 2020,
