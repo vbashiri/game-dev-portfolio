@@ -27,6 +27,8 @@ class Header extends Component {
   }
 
   render() {
+    var bannerHeight = window.innerHeight < window.innerWidth ? window.innerHeight / 2 : window.innerWidth / 2;
+    var mobileVersion = bannerHeight < 300;
     if (this.props.sharedData) {
       var name = this.props.sharedData.name;
       this.titles = this.props.sharedData.titles.map(x => [ x.toUpperCase(), 1500 ] ).flat();
@@ -41,14 +43,14 @@ class Header extends Component {
         id="home"
         className="container"
         style={{
-          flex: 2,
+          flex: 1,
           display: 'flex',
           flexDirection: 'column',
           justifyContent: "center",
           alignItems: 'center',
         }}
       >
-        <div >
+        {!mobileVersion && <div>
           <h1 style={{ color: "#f4f4f4", margin: '0 auto', marginTop: 10, fontSize: '350%', textAlign: 'center' }}>
             <span>About me</span>
           </h1>
@@ -62,7 +64,7 @@ class Header extends Component {
               marginBottom: 50
             }}
           />
-        </div>
+        </div>}
         <div className= "row">
           <div
             className= "col-xl-4"
@@ -76,7 +78,8 @@ class Header extends Component {
                 display: 'block',
                 marginLeft: 'auto',
                 marginRight: 'auto',
-                marginBottom: 10
+                marginBottom: 10,
+                marginTop: mobileVersion ? -250 : 0,
               }}
             />
             <h1 style={{ color: "#f4f4f4", marginBottom: 7, textAlign: 'center' }}>

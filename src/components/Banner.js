@@ -16,11 +16,13 @@ class Banner extends Component {
 
   render() {
     var bannerHeight = window.innerHeight < window.innerWidth ? window.innerHeight / 2 : window.innerWidth / 2;
+    bannerHeight = bannerHeight > 300 ? bannerHeight : 300;
     return (
       <div id="banner" style={{
         height: bannerHeight,
         width: '100%',
         display: 'flex',
+        flex: 1,
         position: 'relative',
         overflowX: 'hidden',
         overflowY: 'hidden',
