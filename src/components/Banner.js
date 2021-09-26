@@ -21,8 +21,6 @@ class Banner extends Component {
       <div id="banner" style={{
         height: bannerHeight,
         width: '100%',
-        display: 'flex',
-        flex: 1,
         position: 'relative',
         overflowX: 'hidden',
         overflowY: 'hidden',
