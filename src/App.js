@@ -19,15 +19,28 @@ import sut from "./assets/images/experience/sut.png";
 
 import iust from "./assets/images/experience/iust.png";
 
-import jumpUp0 from "./assets/images/projects/jumpup/jump_up.png";
-import jumpUp1 from "./assets/images/projects/jumpup/jumpup1.jpg";
-import jumpUp2 from "./assets/images/projects/jumpup/jumpup2.jpg";
-import jumpUp3 from "./assets/images/projects/jumpup/jumpup3.jpg";
-
 import playground0 from "./assets/images/projects/playground/playground_icon.png";
 import playground1 from "./assets/images/projects/playground/mushroom.png";
 import playground2 from "./assets/images/projects/playground/spidercube.png";
 import playground3 from "./assets/images/projects/playground/lake.png";
+
+import ninjaMagic0 from "./assets/images/projects/ninjamagic/ninjamagic0.jpg";
+import ninjaMagic1 from "./assets/images/projects/ninjamagic/ninjamagic1.jpg";
+import ninjaMagic2 from "./assets/images/projects/ninjamagic/ninjamagic2.jpg";
+import ninjaMagic3 from "./assets/images/projects/ninjamagic/ninjamagic3.jpg";
+import ninjaMagic4 from "./assets/images/projects/ninjamagic/ninjamagic4.jpg";
+
+import flyingHills0 from "./assets/images/projects/flyinghills/icon.jpg";
+import flyingHills1 from "./assets/images/projects/flyinghills/flyinghills1.png";
+import flyingHills2 from "./assets/images/projects/flyinghills/flyinghills2.png";
+import flyingHills3 from "./assets/images/projects/flyinghills/flyinghills3.png";
+import flyingHills4 from "./assets/images/projects/flyinghills/flyinghills4.jpg";
+import flyingHills5 from "./assets/images/projects/flyinghills/flyinghills5.jpg";
+
+import jumpUp0 from "./assets/images/projects/jumpup/jump_up.png";
+import jumpUp1 from "./assets/images/projects/jumpup/jumpup1.jpg";
+import jumpUp2 from "./assets/images/projects/jumpup/jumpup2.jpg";
+import jumpUp3 from "./assets/images/projects/jumpup/jumpup3.jpg";
 
 import core0 from "./assets/images/projects/core/Core.png"
 import core1 from "./assets/images/projects/core/core1.png"
@@ -49,6 +62,7 @@ import blueFloyed from "./assets/images/arts/concept-art/BlueFloyed.PNG";
 import veilOfDiscord from "./assets/images/arts/concept-art/VeilOfDiscord.PNG";
 import stunningLook from "./assets/images/arts/concept-art/StunningLook.PNG";
 import deatVoodoo from "./assets/images/arts/concept-art/DeathVoodoo.PNG";
+import niloo from "./assets/images/arts/concept-art/Niloo.PNG";
 
 
 import parallexBackground from "./assets/images/arts/concept-art/Ged.PNG";
@@ -62,7 +76,7 @@ class App extends Component {
       resumeData: {
         experience: [
           {
-            technologies: ["JumpUp"],
+            technologies: ["Jump Up", "Flying Hills", "Ninja Magic"],
             mainTech: ["Unity", "C#"],
             years: "2021.5 - Now",
             title: "Game Developer",
@@ -115,6 +129,37 @@ class App extends Component {
               playground3,
             ],
             youtube: "o1SbL0i7x1M",
+            startDate: 2020,
+          },
+          {
+            title: "Ninja Magic",
+            url: "https://play.google.com/store/apps/details?id=com.funtory.jutsumaster",
+            description: "o    Developed more than 20 different mechanics with an upgrade system\n" +
+                "o    Helped in designing different mechanics and developed a level management system in order to efficiently reuse environments\n",
+            thumbnail: ninjaMagic0,
+            images: [
+              ninjaMagic1,
+              ninjaMagic2,
+              ninjaMagic3,
+              ninjaMagic4
+            ],
+            youtube: "sK3kcAYciy0",
+            startDate: 2020,
+          },
+          {
+            title: "Flying Hills",
+            url: "https://play.google.com/store/apps/details?id=com.funtory.flyingroad",
+            description: "o    Developed an optimized mesh rendering mechanic in addition to a challenging physics-based vehicle as the core mechanic.\n" +
+                "o    Worked closely with a designer to finishing the project.\n",
+            thumbnail: flyingHills0,
+            images: [
+              flyingHills1,
+              flyingHills2,
+              flyingHills3,
+              flyingHills4,
+              flyingHills5
+            ],
+            youtube: "uXhJ2Au0gkM",
             startDate: 2020,
           },
           {
@@ -180,11 +225,12 @@ class App extends Component {
             title: "Sketches",
             thumbnail: ged,
             images: [
+              niloo,
               ged,
               blueFloyed,
               veilOfDiscord,
               stunningLook,
-              deatVoodoo,
+              deatVoodoo
             ],
           },
           ],
