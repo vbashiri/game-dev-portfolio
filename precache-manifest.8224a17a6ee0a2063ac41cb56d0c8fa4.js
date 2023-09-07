@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8ad1752338b8f78b02bc64b6914e9d08",
+    "revision": "c2ab39c7928da469f95c48ef51dd1777",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.d64471e2.chunk.css"
   },
   {
-    "revision": "66c39edca8966ef82069",
+    "revision": "61990063e02c0a4c6026",
     "url": "/portfolio/static/css/main.42c16485.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.af3e8a73.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "66c39edca8966ef82069",
-    "url": "/portfolio/static/js/main.4a728352.chunk.js"
+    "revision": "61990063e02c0a4c6026",
+    "url": "/portfolio/static/js/main.9381e1a8.chunk.js"
   },
   {
     "revision": "6c972d9418aa5b4e59ab",
@@ -72,8 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/StunningLook.0a4edea5.jpg"
   },
   {
-    "revision": "1891c80ecfd36ff5acae660b90d6918f",
-    "url": "/portfolio/static/media/Vahid.1891c80e.webp"
+    "revision": "182a4dca59d80a71db0e995bd3a6a3c9",
+    "url": "/portfolio/static/media/Vahid.182a4dca.webp"
   },
   {
     "revision": "22e446b2db060fa1c4f9be19514390af",
@@ -132,8 +132,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/gameplay3.2d2dcb0a.png"
   },
   {
-    "revision": "3cc8b99675115cf542111b25971d4158",
-    "url": "/portfolio/static/media/icon.3cc8b996.png"
+    "revision": "673cb721715dbcf7ae7b3cf2cc26aa98",
+    "url": "/portfolio/static/media/icon.673cb721.png"
   },
   {
     "revision": "b2ad6b23c9e476230285ac6c58a22777",
