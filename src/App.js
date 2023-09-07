@@ -15,6 +15,7 @@ import Sketches from "./components/Sketches";
 import iis from "./assets/images/experience/iis.png";
 import colony from "./assets/images/experience/colony11.png";
 import funtory from "./assets/images/experience/funtory.png";
+import moolfa from "./assets/images/experience/moolfa.png"
 import sut from "./assets/images/experience/sut.png";
 
 import iust from "./assets/images/experience/iust.png";
@@ -29,6 +30,16 @@ import ninjaMagic1 from "./assets/images/projects/ninjamagic/ninjamagic1.jpg";
 import ninjaMagic2 from "./assets/images/projects/ninjamagic/ninjamagic2.jpg";
 import ninjaMagic3 from "./assets/images/projects/ninjamagic/ninjamagic3.jpg";
 import ninjaMagic4 from "./assets/images/projects/ninjamagic/ninjamagic4.jpg";
+
+import hashtkhan0 from "./assets/images/projects/hashtkhan/Hashtkhan.jpg";
+import hashtkhan1 from "./assets/images/projects/hashtkhan/gameplay.jpg";
+import hashtkhan2 from "./assets/images/projects/hashtkhan/gameplay2.jpg";
+
+import monster0 from "./assets/images/projects/monster/icon.png";
+import monster1 from "./assets/images/projects/monster/gameplay1.png";
+import monster2 from "./assets/images/projects/monster/gameplay2.png";
+import monster3 from "./assets/images/projects/monster/gameplay3.png";
+
 
 import flyingHills0 from "./assets/images/projects/flyinghills/icon.jpg";
 import flyingHills1 from "./assets/images/projects/flyinghills/flyinghills1.png";
@@ -57,12 +68,12 @@ import waterfall0 from "./assets/images/projects/waterfall/waterfall0.png"
 import waterfall1 from "./assets/images/projects/waterfall/waterfall1.png"
 import waterfall2 from "./assets/images/projects/waterfall/waterfall2.png"
 
-import ged from "./assets/images/arts/concept-art/Ged.PNG";
-import blueFloyed from "./assets/images/arts/concept-art/BlueFloyed.PNG";
-import veilOfDiscord from "./assets/images/arts/concept-art/VeilOfDiscord.PNG";
-import stunningLook from "./assets/images/arts/concept-art/StunningLook.PNG";
-import deatVoodoo from "./assets/images/arts/concept-art/DeathVoodoo.PNG";
-import niloo from "./assets/images/arts/concept-art/Niloo.PNG";
+import parandthe from "./assets/images/arts/concept-art/ParandThe.jpg";
+import strygwyr from "./assets/images/arts/concept-art/Strygwyr.JPG";
+import nightmare from "./assets/images/arts/concept-art/Nightmare.jpg";
+import stunningLook from "./assets/images/arts/concept-art/StunningLook.jpg";
+import ged from "./assets/images/arts/concept-art/Ged.jpg";
+import niloo from "./assets/images/arts/concept-art/Niloo.jpg";
 
 
 import parallexBackground from "./assets/images/arts/concept-art/Ged.PNG";
@@ -108,6 +119,14 @@ class App extends Component {
             companyIcon: sut,
           },
           {
+            technologies: ["Hexa Dominoes, Waterfall"],
+            mainTech: ["Unity", "C#"],
+            years: "2015.9 - 2017.10",
+            title: "Freelance Game Developer",
+            company: "Freelance",
+            companyIcon: moolfa,
+          },
+          {
             technologies: ["Major: Hardware Engineering"],
             mainTech: [],
             years: "2013.09 - 2018.06",
@@ -134,7 +153,8 @@ class App extends Component {
           {
             title: "Ninja Magic",
             url: "https://play.google.com/store/apps/details?id=com.funtory.jutsumaster",
-            description: "o    Developed more than 20 different mechanics with an upgrade system\n" +
+            description: "o    Developed the game from scratch to the release with two major iterations after the first launch\n" +
+                "o    Developed more than 20 different mechanics with an upgrade system\n" +
                 "o    Helped in designing different mechanics and developed a level management system in order to efficiently reuse environments\n",
             thumbnail: ninjaMagic0,
             images: [
@@ -142,6 +162,32 @@ class App extends Component {
               ninjaMagic2,
               ninjaMagic3,
               ninjaMagic4
+            ],
+            youtube: "sK3kcAYciy0",
+            startDate: 2020,
+          },
+          {
+            title: "Hasht Khan",
+            url: "https://8khan.games/",
+            description: "o    First persian Card game similar to Hearthstone\n" +
+                "o    Refactored and added new features for the game relaunch\n",
+            thumbnail: hashtkhan0,
+            images: [
+              hashtkhan1,
+              hashtkhan2,
+            ],
+            startDate: 2023,
+          },
+          {
+            title: "My Monster Pet",
+            url: "https://play.google.com/store/apps/details?id=com.funtory.monsterpet",
+            description: "o    Developing character behaviour and interactions \n" +
+                "o    Helped in designing different mechanics and polish the game\n",
+            thumbnail: monster0,
+            images: [
+              monster1,
+              monster2,
+              monster3,
             ],
             youtube: "sK3kcAYciy0",
             startDate: 2020,
@@ -225,12 +271,12 @@ class App extends Component {
             title: "Sketches",
             thumbnail: ged,
             images: [
-              niloo,
-              ged,
-              blueFloyed,
-              veilOfDiscord,
+              parandthe,
+              strygwyr,
+              nightmare,
               stunningLook,
-              deatVoodoo
+              ged,
+              niloo
             ],
           },
           ],

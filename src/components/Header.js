@@ -115,7 +115,8 @@ class Header extends Component {
               }}
             >
             <span style={{ fontSize: '2.5vh' }}>
-              I have an overall six years of programming experience in the educational and professional environments. I’m good at communication and work collaboratively in a team. I have experience in making games according to a business plan as well as freelance prototypes and I’m eager to learn.
+                A passionate game developer who has +8 years of experience in software engineering and worked 6 years dedicatedly making games using Unity engine. Thrives on collaborative teamwork and has led small multi-disciplinary teams with different skill levels to deliver polished games. While having a solid command of C# and Unity, have experience with C++ and Unreal engine, and always welcome new challenges and opportunities to learn.
+                Have a look at my technical articles in <a href={"https://medium.com/@vbashiri1995"}>Medium</a>.
             </span>
             </h3>
           </div>
