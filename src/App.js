@@ -76,7 +76,7 @@ import ged from "./assets/images/arts/concept-art/Ged.jpg";
 import niloo from "./assets/images/arts/concept-art/Niloo.jpg";
 
 
-import parallexBackground from "./assets/images/arts/concept-art/Ged.PNG";
+import parallexBackground from "./assets/images/arts/concept-art/Ged.jpg";
 
 class App extends Component {
 

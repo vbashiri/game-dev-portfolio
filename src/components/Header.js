@@ -116,7 +116,7 @@ class Header extends Component {
             >
             <span style={{ fontSize: '2.5vh' }}>
                 A passionate game developer who has +8 years of experience in software engineering and worked 6 years dedicatedly making games using Unity engine. Thrives on collaborative teamwork and has led small multi-disciplinary teams with different skill levels to deliver polished games. While having a solid command of C# and Unity, have experience with C++ and Unreal engine, and always welcome new challenges and opportunities to learn.
-                Have a look at my technical articles in <a href={"https://medium.com/@vbashiri1995"}>Medium</a>.
+                Have a look at my technical articles in <a style={{color: "#AE944F"}} href={"https://medium.com/@vbashiri1995"}>Medium</a>.
             </span>
             </h3>
           </div>

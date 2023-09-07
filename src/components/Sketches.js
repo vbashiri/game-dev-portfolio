@@ -71,7 +71,7 @@ class Sketches extends Component {
                 }}
               >
                 <span style={{ fontSize: '2.5vh' }}>
-                  I like designing characters and drawing fan art as a hobby.
+                  I like designing characters and drawing fan arts as a hobby.
                   Video games have always been my secret getaway tho.
                   Online games which I can play with my friends are my favorite.
                   Also, I like playing indie games when I have considerable free time.
