@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.42c16485.chunk.css",
-    "main.js": "/portfolio/static/js/main.9381e1a8.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.9381e1a8.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.4431419a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.4431419a.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.1b893ad1.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.1b893ad1.js.map",
     "static/css/2.d64471e2.chunk.css": "/portfolio/static/css/2.d64471e2.chunk.css",
-    "static/js/2.af3e8a73.chunk.js": "/portfolio/static/js/2.af3e8a73.chunk.js",
-    "static/js/2.af3e8a73.chunk.js.map": "/portfolio/static/js/2.af3e8a73.chunk.js.map",
+    "static/js/2.848a011b.chunk.js": "/portfolio/static/js/2.848a011b.chunk.js",
+    "static/js/2.848a011b.chunk.js.map": "/portfolio/static/js/2.848a011b.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.8224a17a6ee0a2063ac41cb56d0c8fa4.js": "/portfolio/precache-manifest.8224a17a6ee0a2063ac41cb56d0c8fa4.js",
+    "precache-manifest.f981f204c7f0af47c837b5afd74d4895.js": "/portfolio/precache-manifest.f981f204c7f0af47c837b5afd74d4895.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.d64471e2.chunk.css.map": "/portfolio/static/css/2.d64471e2.chunk.css.map",
     "static/css/main.42c16485.chunk.css.map": "/portfolio/static/css/main.42c16485.chunk.css.map",
-    "static/js/2.af3e8a73.chunk.js.LICENSE.txt": "/portfolio/static/js/2.af3e8a73.chunk.js.LICENSE.txt",
+    "static/js/2.848a011b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.848a011b.chunk.js.LICENSE.txt",
     "static/media/Core.png": "/portfolio/static/media/Core.8566d049.png",
     "static/media/Ged.jpg": "/portfolio/static/media/Ged.42293a66.jpg",
+    "static/media/Icon.jpg": "/portfolio/static/media/Icon.9565b53a.jpg",
     "static/media/Nightmare.jpg": "/portfolio/static/media/Nightmare.78087881.jpg",
     "static/media/Niloo.jpg": "/portfolio/static/media/Niloo.d9bb5518.jpg",
     "static/media/ParandThe.jpg": "/portfolio/static/media/ParandThe.103209da.jpg",
@@ -36,10 +37,10 @@
     "static/media/flyinghills4.jpg": "/portfolio/static/media/flyinghills4.fec1f121.jpg",
     "static/media/flyinghills5.jpg": "/portfolio/static/media/flyinghills5.136d47ac.jpg",
     "static/media/gameplay.jpg": "/portfolio/static/media/gameplay.b1a48b1b.jpg",
-    "static/media/gameplay1.png": "/portfolio/static/media/gameplay1.03b7ccdb.png",
-    "static/media/gameplay2.jpg": "/portfolio/static/media/gameplay2.97fcc0aa.jpg",
+    "static/media/gameplay1.png": "/portfolio/static/media/gameplay1.dcdeeadc.png",
     "static/media/gameplay2.png": "/portfolio/static/media/gameplay2.fafeaaa8.png",
-    "static/media/gameplay3.png": "/portfolio/static/media/gameplay3.2d2dcb0a.png",
+    "static/media/gameplay2.jpg": "/portfolio/static/media/gameplay2.97fcc0aa.jpg",
+    "static/media/gameplay3.png": "/portfolio/static/media/gameplay3.71eed30b.png",
     "static/media/icon.png": "/portfolio/static/media/icon.673cb721.png",
     "static/media/icon.jpg": "/portfolio/static/media/icon.b2ad6b23.jpg",
     "static/media/iust.png": "/portfolio/static/media/iust.2a5b6567.png",
@@ -65,8 +66,8 @@
   "entrypoints": [
     "static/js/runtime-main.1b893ad1.js",
     "static/css/2.d64471e2.chunk.css",
-    "static/js/2.af3e8a73.chunk.js",
+    "static/js/2.848a011b.chunk.js",
     "static/css/main.42c16485.chunk.css",
-    "static/js/main.9381e1a8.chunk.js"
+    "static/js/main.4431419a.chunk.js"
   ]
 }

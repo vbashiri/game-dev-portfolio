@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c2ab39c7928da469f95c48ef51dd1777",
+    "revision": "ecad26ecef6a99bce971011339d47577",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "b06cde05708e150d2aed",
+    "revision": "bbf70196e3c6b4f2d76f",
     "url": "/portfolio/static/css/2.d64471e2.chunk.css"
   },
   {
-    "revision": "61990063e02c0a4c6026",
+    "revision": "5c1819f82e5cd36abd9d",
     "url": "/portfolio/static/css/main.42c16485.chunk.css"
   },
   {
-    "revision": "b06cde05708e150d2aed",
-    "url": "/portfolio/static/js/2.af3e8a73.chunk.js"
+    "revision": "bbf70196e3c6b4f2d76f",
+    "url": "/portfolio/static/js/2.848a011b.chunk.js"
   },
   {
     "revision": "7c4b6536cab2d1970758ff058c5fbbf8",
-    "url": "/portfolio/static/js/2.af3e8a73.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.848a011b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "61990063e02c0a4c6026",
-    "url": "/portfolio/static/js/main.9381e1a8.chunk.js"
+    "revision": "5c1819f82e5cd36abd9d",
+    "url": "/portfolio/static/js/main.4431419a.chunk.js"
   },
   {
     "revision": "6c972d9418aa5b4e59ab",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "42293a6625787d511d7de6364b50c581",
     "url": "/portfolio/static/media/Ged.42293a66.jpg"
+  },
+  {
+    "revision": "9565b53a9b25187007aee8bae27bfab6",
+    "url": "/portfolio/static/media/Icon.9565b53a.jpg"
   },
   {
     "revision": "780878819146b8e505d054ab3764bd3e",
@@ -120,6 +124,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/gameplay1.03b7ccdb.png"
   },
   {
+    "revision": "dcdeeadcd1082b2fac0c404e9cfdd1af",
+    "url": "/portfolio/static/media/gameplay1.dcdeeadc.png"
+  },
+  {
+    "revision": "1167fffc243b49c88cbb3545ba5493b4",
+    "url": "/portfolio/static/media/gameplay2.1167fffc.png"
+  },
+  {
     "revision": "97fcc0aabdbe17daf4bf09542aaf0ea6",
     "url": "/portfolio/static/media/gameplay2.97fcc0aa.jpg"
   },
@@ -130,6 +142,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2d2dcb0a76151107c8a0c59404181c0d",
     "url": "/portfolio/static/media/gameplay3.2d2dcb0a.png"
+  },
+  {
+    "revision": "71eed30bc10976f8455eba3fff8668ff",
+    "url": "/portfolio/static/media/gameplay3.71eed30b.png"
   },
   {
     "revision": "673cb721715dbcf7ae7b3cf2cc26aa98",
