@@ -64,6 +64,11 @@ import rebel2 from "./assets/images/projects/rebel/Rebel2.png"
 import rebel3 from "./assets/images/projects/rebel/Rebel3.png"
 import rebel4 from "./assets/images/projects/rebel/Rebel4.png"
 
+import hexaDominoes0 from "./assets/images/projects/hexadominoes/Icon.jpg"
+import hexaDominoes1 from "./assets/images/projects/hexadominoes/gameplay1.png"
+import hexaDominoes2 from "./assets/images/projects/hexadominoes/gameplay2.png"
+import hexaDominoes3 from "./assets/images/projects/hexadominoes/gameplay3.png"
+
 import waterfall0 from "./assets/images/projects/waterfall/waterfall0.png"
 import waterfall1 from "./assets/images/projects/waterfall/waterfall1.png"
 import waterfall2 from "./assets/images/projects/waterfall/waterfall2.png"
@@ -153,9 +158,8 @@ class App extends Component {
           {
             title: "Ninja Magic",
             url: "https://play.google.com/store/apps/details?id=com.funtory.jutsumaster",
-            description: "o    Developed the game from scratch to the release with two major iterations after the first launch\n" +
-                "o    Developed more than 20 different mechanics with an upgrade system\n" +
-                "o    Helped in designing different mechanics and developed a level management system in order to efficiently reuse environments\n",
+            description: "o    Designed and Developed the game from scratch to the release with two major iterations after the first launch\n" +
+                "o    Developed more than 20 different mechanics with an upgrade system\n",
             thumbnail: ninjaMagic0,
             images: [
               ninjaMagic1,
@@ -189,7 +193,6 @@ class App extends Component {
               monster2,
               monster3,
             ],
-            youtube: "sK3kcAYciy0",
             startDate: 2020,
           },
           {
@@ -251,19 +254,30 @@ class App extends Component {
             youtube: "kRbxADt-gVc",
             startDate: 2019,
           },
-
+          {
+            title: "Hexa Dominoes",
+            url: "https://play.google.com/store/apps/details?id=com.moolfa.dominocolor",
+            description: "o    My first published projects in google play \n" +
+                "o    Helped in developing level manager and designed new levels\n",
+            thumbnail: hexaDominoes0,
+            images: [
+              hexaDominoes1,
+              hexaDominoes2,
+              hexaDominoes3,
+            ],
+            startDate: 2017,
+          },
           {
             title: "Waterfall",
             url: "https://hvbashiri.itch.io/waterfall",
             description: "o    Final project of fundamentals of game design course \n" +
-              "o    Worked on character animations and core mechanics\n" +
-              "o    Worked as a member of 5 people team\n",
+              "o    Worked on character animations and core gameplay mechanics\n",
             thumbnail: waterfall0,
             images: [
               waterfall1,
               waterfall2,
             ],
-            startDate: 2015,
+            startDate: 2016,
           },
         ],
         arts: [
