@@ -257,7 +257,7 @@ class App extends Component {
           {
             title: "Hexa Dominoes",
             url: "https://play.google.com/store/apps/details?id=com.moolfa.dominocolor",
-            description: "o    My first published projects in google play \n" +
+            description: "o    My first published project in google play \n" +
                 "o    Helped in developing level manager and designed new levels\n",
             thumbnail: hexaDominoes0,
             images: [

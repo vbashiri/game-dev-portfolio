@@ -73,7 +73,7 @@ class Sketches extends Component {
                 <span style={{ fontSize: '2.5vh' }}>
                   I like designing characters and drawing fan arts as a hobby.
                   Video games have always been my secret getaway tho.
-                  Online games which I can play with my friends are my favorite.
+                  Online games which I can play with my friends are my favorites.
                   Also, I like playing indie games when I have considerable free time.
                   On top of that, I tend to watch movies and series.
                   When I get bored of all these things,
