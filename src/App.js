@@ -20,23 +20,26 @@ import sut from "./assets/images/experience/sut.png";
 
 import iust from "./assets/images/experience/iust.png";
 
-import playground0 from "./assets/images/projects/playground/playground_icon.png";
+import playground0 from "./assets/images/projects/playground/playground_icon.jpg";
 import playground1 from "./assets/images/projects/playground/mushroom.png";
 import playground2 from "./assets/images/projects/playground/spidercube.png";
 import playground3 from "./assets/images/projects/playground/lake.png";
 
+import bridgeRun from "./assets/images/projects/bridgerun/icon.jpg";
+import bridgeRun1 from "./assets/images/projects/bridgerun/gameplay0.png";
+import bridgeRun2 from "./assets/images/projects/bridgerun/gameplay1.png";
+import bridgeRun3 from "./assets/images/projects/bridgerun/gameplay2.png";
+
 import ninjaMagic0 from "./assets/images/projects/ninjamagic/ninjamagic0.jpg";
-import ninjaMagic1 from "./assets/images/projects/ninjamagic/ninjamagic1.jpg";
-import ninjaMagic2 from "./assets/images/projects/ninjamagic/ninjamagic2.jpg";
-import ninjaMagic3 from "./assets/images/projects/ninjamagic/ninjamagic3.jpg";
-import ninjaMagic4 from "./assets/images/projects/ninjamagic/ninjamagic4.jpg";
+import ninjaMagic1 from "./assets/images/projects/ninjamagic/gameplay0.jpg";
+import ninjaMagic2 from "./assets/images/projects/ninjamagic/gameplay1.jpg";
 
 import hashtkhan0 from "./assets/images/projects/hashtkhan/Hashtkhan.jpg";
 import hashtkhan1 from "./assets/images/projects/hashtkhan/gameplay.jpg";
 import hashtkhan2 from "./assets/images/projects/hashtkhan/gameplay1.jpg";
 import hashtkhan3 from "./assets/images/projects/hashtkhan/gameplay2.jpg";
 
-import monster0 from "./assets/images/projects/monster/icon.png";
+import monster0 from "./assets/images/projects/monster/icon.jpg";
 import monster1 from "./assets/images/projects/monster/gameplay1.png";
 import monster2 from "./assets/images/projects/monster/gameplay2.png";
 import monster3 from "./assets/images/projects/monster/gameplay3.png";
@@ -49,17 +52,17 @@ import flyingHills3 from "./assets/images/projects/flyinghills/flyinghills3.png"
 import flyingHills4 from "./assets/images/projects/flyinghills/flyinghills4.jpg";
 import flyingHills5 from "./assets/images/projects/flyinghills/flyinghills5.jpg";
 
-import jumpUp0 from "./assets/images/projects/jumpup/jump_up.png";
+import jumpUp0 from "./assets/images/projects/jumpup/jump_up.jpg";
 import jumpUp1 from "./assets/images/projects/jumpup/jumpup1.jpg";
 import jumpUp2 from "./assets/images/projects/jumpup/jumpup2.jpg";
 import jumpUp3 from "./assets/images/projects/jumpup/jumpup3.jpg";
 
-import core0 from "./assets/images/projects/core/Core.png"
+import core0 from "./assets/images/projects/core/Core.jpg"
 import core1 from "./assets/images/projects/core/core1.png"
 import core2 from "./assets/images/projects/core/core2.png"
 import core3 from "./assets/images/projects/core/core3.png"
 
-import rebel0 from "./assets/images/projects/rebel/Rose.png"
+import rebel0 from "./assets/images/projects/rebel/Rose.jpg"
 import rebel1 from "./assets/images/projects/rebel/Rebel1.png"
 import rebel2 from "./assets/images/projects/rebel/Rebel2.png"
 import rebel3 from "./assets/images/projects/rebel/Rebel3.png"
@@ -70,7 +73,7 @@ import hexaDominoes1 from "./assets/images/projects/hexadominoes/gameplay1.png"
 import hexaDominoes2 from "./assets/images/projects/hexadominoes/gameplay2.png"
 import hexaDominoes3 from "./assets/images/projects/hexadominoes/gameplay3.png"
 
-import waterfall0 from "./assets/images/projects/waterfall/waterfall0.png"
+import waterfall0 from "./assets/images/projects/waterfall/waterfall0.jpg"
 import waterfall1 from "./assets/images/projects/waterfall/waterfall1.png"
 import waterfall2 from "./assets/images/projects/waterfall/waterfall2.png"
 
@@ -93,7 +96,7 @@ class App extends Component {
       resumeData: {
         experience: [
           {
-            technologies: ["Jump Up", "Flying Hills", "Ninja Magic"],
+            technologies: ["Jump Up", "Ninja Magic", "My Monster Pet"],
             mainTech: ["Unity", "C#"],
             years: "2021.5 - Now",
             title: "Game Developer",
@@ -157,6 +160,19 @@ class App extends Component {
             startDate: 2023,
           },
           {
+            title: "BridgeRun",
+            url: "https://play.google.com/store/apps/details?id=com.Moolfa.BridgeRun",
+            description: "o    Designed and Developed the game from scratch to the release\n" +
+                "o    Redesigned levels and mechanics based player statistics\n",
+            thumbnail: bridgeRun,
+            images: [
+              bridgeRun1,
+              bridgeRun2,
+              bridgeRun3,
+            ],
+            startDate: 2022,
+          },
+          {
             title: "Playground",
             url: "https://moolfa.itch.io/playground",
             description: "o    Personal project which each level is a minimal prototype\n" +
@@ -179,8 +195,6 @@ class App extends Component {
             images: [
               ninjaMagic1,
               ninjaMagic2,
-              ninjaMagic3,
-              ninjaMagic4
             ],
             youtube: "sK3kcAYciy0",
             startDate: 2020,
