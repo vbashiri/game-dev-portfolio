@@ -113,7 +113,7 @@ class Banner extends Component {
                alignItems: 'flex-end',
              }}
         >
-          <img src={forground} style={{flex: 1 ,aspectRatio: 1.77}} />
+          <img src={forground} style={{flex: 1 ,aspectRatio: 3.2}} />
         </div>
       </div>
 
