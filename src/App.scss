@@ -253,7 +253,7 @@ header h1 {
 	padding: 0.7vmin 1.2vmin 0.7vmin 1.2vmin !important;
 	vertical-align: baseline;
 	background-color: #f9f5e9 !important;
-	color: black;
+	color: black !important;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -341,7 +341,7 @@ header h1 {
 
 .modal-description {
 	text-align: justify;
-	padding: 5px 5px 0 30px;
+	padding: 5px 5px 10px 10px;
 	margin-bottom: 20px;
 	font-size: small;
 }
@@ -369,7 +369,6 @@ header h1 {
 }
 
 .foto {
-
 }
 
 .portfolio-item {

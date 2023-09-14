@@ -23,7 +23,7 @@ class Projects extends Component {
           <div
             className="col-sm-12 col-md-6 col-lg-6 col-xl-4"
             key={projects.title}
-            style={{ cursor: "pointer" }}
+            style={{ cursor: "pointer", flexShrink: 0, maxWidth: '100%' }}
           >
             <span className="portfolio-item d-block">
               <div className="foto" onClick={() => detailsModalShow(projects)}>
@@ -52,7 +52,7 @@ class Projects extends Component {
           <h1 className="section-title" style={{ color: "black", fontSize: "300%" }}>
             <span>{sectionName}</span>
           </h1>
-          <div className="col-md-12 mx-auto">
+          <div className="col-md-12">
             <div className="row mx-auto">{projects}</div>
           </div>
           <ProjectDetailsModal

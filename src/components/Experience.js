@@ -18,7 +18,8 @@ class Experience extends Component {
           return (
             <Badge
               pill
-              className="main-badge
+              bg={"#AE944F"}
+              className=" main-badge
               mt-xl-2 mt-md-2 mt-sm-2
               mr-xl-4 mr-md-3 mr-sm-2
               mb-xl-4 mb-md-3 mb-sm-2"
@@ -32,6 +33,8 @@ class Experience extends Component {
           return (
             <Badge
               pill
+              bg={"#f9f5e9"}
+              color={"#000000"}
               className="experience-badge
               mt-xl-4 mt-md-3 mt-sm-2
               mr-xl-4 mr-md-3 mr-sm-2
