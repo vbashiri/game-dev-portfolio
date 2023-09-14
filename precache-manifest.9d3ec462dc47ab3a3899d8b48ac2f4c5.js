@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3f9b66f137705f60d9ce62d660b25c40",
+    "revision": "d6066784071306e497083f1c564445d6",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "bbf70196e3c6b4f2d76f",
+    "revision": "29a3c1f5a39202cf5804",
     "url": "/portfolio/static/css/2.d64471e2.chunk.css"
   },
   {
-    "revision": "983658557dc1814ab912",
+    "revision": "258c7d2f77e8d763d59d",
     "url": "/portfolio/static/css/main.42c16485.chunk.css"
   },
   {
-    "revision": "bbf70196e3c6b4f2d76f",
-    "url": "/portfolio/static/js/2.848a011b.chunk.js"
+    "revision": "29a3c1f5a39202cf5804",
+    "url": "/portfolio/static/js/2.012861a0.chunk.js"
   },
   {
     "revision": "7c4b6536cab2d1970758ff058c5fbbf8",
-    "url": "/portfolio/static/js/2.848a011b.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.012861a0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "983658557dc1814ab912",
-    "url": "/portfolio/static/js/main.1d7f4afc.chunk.js"
+    "revision": "258c7d2f77e8d763d59d",
+    "url": "/portfolio/static/js/main.87b25676.chunk.js"
   },
   {
     "revision": "6c972d9418aa5b4e59ab",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "42293a6625787d511d7de6364b50c581",
     "url": "/portfolio/static/media/Ged.42293a66.jpg"
+  },
+  {
+    "revision": "619e6588f62952505ce89e7c12b1c573",
+    "url": "/portfolio/static/media/Hashtkhan.619e6588.jpg"
   },
   {
     "revision": "9565b53a9b25187007aee8bae27bfab6",
@@ -116,24 +120,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/flyinghills5.136d47ac.jpg"
   },
   {
-    "revision": "b1a48b1b7d8078ff2bc005816a57c0f1",
-    "url": "/portfolio/static/media/gameplay.b1a48b1b.jpg"
+    "revision": "9590a8be7f3edddddc6c15d20d7e2685",
+    "url": "/portfolio/static/media/gameplay.9590a8be.jpg"
   },
   {
     "revision": "03b7ccdbbacb5377c1f91ff4f0404bf4",
     "url": "/portfolio/static/media/gameplay1.03b7ccdb.png"
   },
   {
+    "revision": "8faef5f24da4579f2e0339af0f882f3a",
+    "url": "/portfolio/static/media/gameplay1.8faef5f2.jpg"
+  },
+  {
     "revision": "dcdeeadcd1082b2fac0c404e9cfdd1af",
     "url": "/portfolio/static/media/gameplay1.dcdeeadc.png"
   },
   {
-    "revision": "1167fffc243b49c88cbb3545ba5493b4",
-    "url": "/portfolio/static/media/gameplay2.1167fffc.png"
+    "revision": "0bb1d7967e66fdc5ea409b3a4b1d5679",
+    "url": "/portfolio/static/media/gameplay2.0bb1d796.jpg"
   },
   {
-    "revision": "97fcc0aabdbe17daf4bf09542aaf0ea6",
-    "url": "/portfolio/static/media/gameplay2.97fcc0aa.jpg"
+    "revision": "1167fffc243b49c88cbb3545ba5493b4",
+    "url": "/portfolio/static/media/gameplay2.1167fffc.png"
   },
   {
     "revision": "fafeaaa812230409b97e3ffcc9b39f2d",
