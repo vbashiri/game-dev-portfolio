@@ -33,7 +33,8 @@ import ninjaMagic4 from "./assets/images/projects/ninjamagic/ninjamagic4.jpg";
 
 import hashtkhan0 from "./assets/images/projects/hashtkhan/Hashtkhan.jpg";
 import hashtkhan1 from "./assets/images/projects/hashtkhan/gameplay.jpg";
-import hashtkhan2 from "./assets/images/projects/hashtkhan/gameplay2.jpg";
+import hashtkhan2 from "./assets/images/projects/hashtkhan/gameplay1.jpg";
+import hashtkhan3 from "./assets/images/projects/hashtkhan/gameplay2.jpg";
 
 import monster0 from "./assets/images/projects/monster/icon.png";
 import monster1 from "./assets/images/projects/monster/gameplay1.png";
@@ -142,6 +143,20 @@ class App extends Component {
         ],
         projects: [
           {
+            title: "Hasht Khan",
+            url: "https://8khan.games/",
+            description: "o    First persian Card game similar to Hearthstone\n" +
+                "o    Refactored and added new features for the game relaunch\n",
+            thumbnail: hashtkhan0,
+            images: [
+              hashtkhan1,
+              hashtkhan2,
+              hashtkhan3
+            ],
+            youtube: "buiB7j0_QEI",
+            startDate: 2023,
+          },
+          {
             title: "Playground",
             url: "https://moolfa.itch.io/playground",
             description: "o    Personal project which each level is a minimal prototype\n" +
@@ -171,18 +186,6 @@ class App extends Component {
             startDate: 2020,
           },
           {
-            title: "Hasht Khan",
-            url: "https://8khan.games/",
-            description: "o    First persian Card game similar to Hearthstone\n" +
-                "o    Refactored and added new features for the game relaunch\n",
-            thumbnail: hashtkhan0,
-            images: [
-              hashtkhan1,
-              hashtkhan2,
-            ],
-            startDate: 2023,
-          },
-          {
             title: "My Monster Pet",
             url: "https://play.google.com/store/apps/details?id=com.funtory.monsterpet",
             description: "o    Developing character behaviour and interactions \n" +
@@ -193,7 +196,7 @@ class App extends Component {
               monster2,
               monster3,
             ],
-            startDate: 2020,
+            startDate: 2021,
           },
           {
             title: "Flying Hills",

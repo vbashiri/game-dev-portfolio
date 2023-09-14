@@ -29,7 +29,7 @@ class Header extends Component {
   render() {
     var bannerHeight = window.innerHeight < window.innerWidth ? window.innerHeight / 2 : window.innerWidth / 2;
     bannerHeight = bannerHeight > 300 ? bannerHeight : 300;
-    var mobileVersion = bannerHeight == 300;
+    var mobileVersion = bannerHeight <= 300;
     if (this.props.sharedData) {
       var name = this.props.sharedData.name;
       this.titles = this.props.sharedData.titles.map(x => [ x.toUpperCase(), 1500 ] ).flat();
@@ -63,20 +63,20 @@ class Header extends Component {
               borderRadius: 3,
               backgroundColor: '#f4f4f4',
               margin: '0 auto',
-              marginBottom: 50
+              marginBottom: 40
             }}
           />
         </div>}
         <div className= "row">
           <div
             className= "col-xl-4"
-            style={{ marginTop: mobileVersion ? -100 : 0, }}
+            style={{ marginTop: mobileVersion ? -70 : 0, }}
           >
             <img
               src={avatar}
               style={{
-                width: '200px',
-                height: '200px',
+                width: mobileVersion ? 140 : 200,
+                height: mobileVersion ? 140 : 200,
                 borderRadius: '50%',
                 display: 'block',
                 marginLeft: 'auto',
@@ -114,7 +114,7 @@ class Header extends Component {
                 marginRight: 10,
               }}
             >
-            <span style={{ fontSize: '2.5vh' }}>
+            <span style={{ fontSize: '2.3vh' }}>
                 A passionate game developer who have +8 years of experience in software engineering and worked 6 years dedicatedly making games using Unity engine. Thrive on collaborative teamwork and have led small multi-disciplinary teams with different skill levels to deliver polished games. While having a solid command of C# and Unity, have experience with C++ and Unreal engine, and always welcome new challenges and opportunities to learn.
                 Have a look at my technical articles in <a style={{color: "#AE944F"}} href={"https://medium.com/@vbashiri1995"}>Medium</a>.
             </span>
