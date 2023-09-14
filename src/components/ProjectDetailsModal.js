@@ -66,7 +66,8 @@ class ProjectDetailsModal extends Component {
     return (
       <Modal
         {...this.props}
-        size="xl"
+        size={"lg"}
+        fullscreen={"md-down"}
         aria-labelledby="contained-modal-title-vcenter"
         centered
         className="modal-inside"
