@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
-import { Icon } from '@iconify/react';
-import Switch from "react-switch";
 import avatar from "../assets/images/header/Vahid.webp";
 
 class Header extends Component {
@@ -9,14 +7,23 @@ class Header extends Component {
 
   constructor() {
     super();
-    this.state = { checked: false };
+    this.state = { checked: false, bannerSize: 300 };
     this.onThemeSwitchChange = this.onThemeSwitchChange.bind(this);
   }
 
-  onThemeSwitchChange(checked) {
-    this.setState({ checked });
-    this.setTheme();
+  componentDidMount() {
+      window.screen.orientation.addEventListener("change", () => {
+          var bannerHeight = window.innerHeight < window.innerWidth ? window.innerHeight / 2 : window.innerWidth / 2;
+          bannerHeight = bannerHeight > 300 ? bannerHeight : 300;
+          this.setState({bannerSize: bannerHeight});
+      })
   }
+
+    onThemeSwitchChange(checked) {
+      this.setState({checked});
+      this.setTheme();
+  }
+
 
   setTheme() {
     var dataThemeAttribute = "data-theme";
@@ -27,9 +34,9 @@ class Header extends Component {
   }
 
   render() {
-    var bannerHeight = window.innerHeight < window.innerWidth ? window.innerHeight / 2 : window.innerWidth / 2;
-    bannerHeight = bannerHeight > 300 ? bannerHeight : 300;
-    var mobileVersion = bannerHeight <= 300;
+      var bannerHeight = window.innerHeight < window.innerWidth ? window.innerHeight / 2 : window.innerWidth / 2;
+      bannerHeight = bannerHeight > 300 ? bannerHeight : 300;
+      var mobileVersion = bannerHeight <= 300 || navigator.platform.indexOf('iPad') !== -1;
     if (this.props.sharedData) {
       var name = this.props.sharedData.name;
       this.titles = this.props.sharedData.titles.map(x => [ x.toUpperCase(), 1500 ] ).flat();
@@ -52,7 +59,7 @@ class Header extends Component {
           alignItems: 'center',
         }}
       >
-        {!mobileVersion && <div>
+        {bannerHeight > 400 && <div>
           <h1 style={{ color: "#f4f4f4", margin: '0 auto', marginTop: 10, fontSize: '350%', textAlign: 'center' }}>
             <span>About me</span>
           </h1>
@@ -115,7 +122,7 @@ class Header extends Component {
               }}
             >
             <span style={{ fontSize: '2.3vh' }}>
-                A passionate game developer who have +8 years of experience in software engineering and worked 6 years dedicatedly making games using Unity engine. Thrive on collaborative teamwork and have led small multi-disciplinary teams with different skill levels to deliver polished games. While having a solid command of C# and Unity, have experience with C++ and Unreal engine, and always welcome new challenges and opportunities to learn.
+                A passionate game developer who have over 7 years of experience in software engineering and worked 5 years dedicatedly making games using Unity engine. Thrive on collaborative teamwork and have led small multi-disciplinary teams with different skill levels to deliver polished games. While having a solid command of C# and Unity, have experience with C++ and Unreal engine, and always welcome new challenges and opportunities to learn.
                 Have a look at my technical articles in <a style={{color: "#AE944F"}} href={"https://medium.com/@vbashiri1995"}>Medium</a>.
             </span>
             </h3>
