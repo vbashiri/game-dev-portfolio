@@ -14,12 +14,28 @@ import fCloud3 from '../assets/images/banner/f_cload3.png'
 
 class Banner extends Component {
 
+    constructor() {
+        super();
+        this.state = {bannerSize: 10000 };
+    }
+
+    componentDidMount() {
+        this.calculateBannerHeight(window.innerHeight, window.innerWidth);
+        window.addEventListener("orientationchange", () => {
+            this.calculateBannerHeight(window.innerWidth, window.innerHeight);
+        })
+    }
+
+    calculateBannerHeight(height, width) {
+        var bannerHeight = height < width ? height / 3 : width / 2;
+        bannerHeight = bannerHeight > 300 ? bannerHeight : 300;
+        this.setState({bannerSize: bannerHeight});
+    }
   render() {
-    var bannerHeight = window.innerHeight < window.innerWidth ? window.innerHeight / 2 : window.innerWidth / 2;
-    bannerHeight = bannerHeight > 300 ? bannerHeight : 300;
+        console.log("$%$%$%%%%%%%%%%%%%$%$%");
     return (
       <div id="banner" style={{
-        height: bannerHeight,
+        height: this.state.bannerSize,
         width: '100%',
         position: 'relative',
         overflowX: 'hidden',
@@ -27,7 +43,7 @@ class Banner extends Component {
       }}>
         <div id="sky"
              style={{
-               height: bannerHeight,
+               height: this.state.bannerSize,
                width: '100%',
                position: 'absolute',
                left: 0,
@@ -41,13 +57,13 @@ class Banner extends Component {
           <img src={sky} style={{flex: 1 ,aspectRatio: 3.2}} />
         </div>
         <div id="cloud0"
-             style={{height: bannerHeight}}
+             style={{height: this.state.bannerSize}}
              className="cloud cloud0"
         >
           <img src={bCloud1} style={{flex: 1 ,aspectRatio: 3.2}} />
         </div>
         <div id="cloud1"
-             style={{height: bannerHeight}}
+             style={{height: this.state.bannerSize}}
              className="cloud cloud1"
         >
           <img src={bCloud1} style={{flex: 1 ,aspectRatio: 3.2}} />
@@ -55,7 +71,7 @@ class Banner extends Component {
         <div id="cloud2"
              className="cloud cloud2"
              style={{
-               height: bannerHeight,
+               height: this.state.bannerSize,
              }}
         >
           <img src={bCloud2} style={{flex: 1 ,aspectRatio: 3.2}} />
@@ -63,7 +79,7 @@ class Banner extends Component {
         <div id="cloud3"
              className="cloud cloud3"
              style={{
-               height: bannerHeight,
+               height: this.state.bannerSize,
              }}
         >
           <img src={bCloud3} style={{flex: 1 ,aspectRatio: 3.2}} />
@@ -71,7 +87,7 @@ class Banner extends Component {
         <div id="cloud4"
              className="cloud cloud4"
              style={{
-               height: bannerHeight,
+               height: this.state.bannerSize,
              }}
         >
           <img src={fCloud1} style={{flex: 1 ,aspectRatio: 3.2}} />
@@ -79,7 +95,7 @@ class Banner extends Component {
         <div id="cloud5"
              className="cloud cloud5"
              style={{
-               height: bannerHeight,
+               height: this.state.bannerSize,
              }}
         >
           <img src={fCloud2} style={{flex: 1 ,aspectRatio: 3.2}} />
@@ -87,7 +103,7 @@ class Banner extends Component {
         <div id="cloud6"
              className="cloud6 cloud"
              style={{
-               height: bannerHeight,
+               height: this.state.bannerSize,
              }}
         >
           <img src={fCloud3} style={{flex: 1 ,aspectRatio: 3.2}} />
@@ -95,14 +111,14 @@ class Banner extends Component {
         <div id="cloud7"
              className="cloud7 cloud"
              style={{
-               height: bannerHeight,
+               height: this.state.bannerSize,
              }}
         >
           <img src={fCloud2} style={{flex: 1 ,aspectRatio: 3.2}} />
         </div>
         <div id="forground"
              style={{
-               height: bannerHeight,
+               height: this.state.bannerSize,
                width: '100%',
                position: 'absolute',
                left: 0,

@@ -92,6 +92,7 @@ class App extends Component {
   constructor(props) {
     super();
     this.state = {
+      windowInnerHeight: window.innerHeight,
       foo: "bar",
       resumeData: {
         experience: [
@@ -326,6 +327,18 @@ class App extends Component {
 
   componentDidMount() {
     this.loadSharedData();
+    this.calculateBannerHeight(window.innerHeight, window.innerWidth);
+
+    window.addEventListener("orientationchange", () => {
+      this.calculateBannerHeight(window.innerWidth, window.innerHeight);
+    })
+  }
+
+  calculateBannerHeight(height, width) {
+    var bannerHeight = height < width ? height / 3 : width / 2;
+    bannerHeight = bannerHeight > 300 ? bannerHeight : 300;
+    var mobileVersion = bannerHeight <= 300 || navigator.platform.indexOf('MacIntel') !== -1;
+    this.setState({windowInnerHeight: height, bannerSize: bannerHeight, mobileVersion});
   }
 
   loadResumeFromPath(path) {
@@ -360,7 +373,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div style={{height: window.innerHeight, flex: 1, display: "flex", flexDirection: "column", backgroundColor: '#4b6f84'}}>
+        <div style={{height: this.state.windowInnerHeight, flex: 1, display: "flex", flexDirection: "column", backgroundColor: '#4b6f84'}}>
           <Banner/>
           <Header sharedData={this.state.sharedData.basic_info} />
         </div>
@@ -373,7 +386,7 @@ class App extends Component {
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
         <Parallax bgImage={parallexBackground} strength={500}>
-          <div style={{ height: window.innerHeight }}>
+          <div style={{ height: this.state.windowInnerHeight }}>
           </div>
         </Parallax>
         <Sketches
