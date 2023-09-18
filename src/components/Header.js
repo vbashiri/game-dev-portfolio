@@ -22,7 +22,7 @@ class Header extends Component {
     calculateBannerHeight(height, width) {
         var bannerHeight = height < width ? height / 3 : width / 2;
         bannerHeight = bannerHeight > 300 ? bannerHeight : 300;
-        var mobileVersion = bannerHeight <= 300 || ((width < (height + 100) * 3 / 4) && width < 1500);
+        var mobileVersion = (bannerHeight <= 300 && width < 1500) || ((width < (height + 100) * 3 / 4) && width < 1500);
         this.setState({windowInnerHeight: height, bannerSize: bannerHeight, mobileVersion});
     }
 
