@@ -7,16 +7,8 @@ class Header extends Component {
 
   constructor() {
     super();
-    this.state = { checked: false, bannerSize: 300 };
+    this.state = { checked: false };
     this.onThemeSwitchChange = this.onThemeSwitchChange.bind(this);
-  }
-
-  componentDidMount() {
-      window.screen.orientation.addEventListener("change", () => {
-          var bannerHeight = window.innerHeight < window.innerWidth ? window.innerHeight / 2 : window.innerWidth / 2;
-          bannerHeight = bannerHeight > 300 ? bannerHeight : 300;
-          this.setState({bannerSize: bannerHeight});
-      })
   }
 
     onThemeSwitchChange(checked) {
@@ -36,7 +28,7 @@ class Header extends Component {
   render() {
       var bannerHeight = window.innerHeight < window.innerWidth ? window.innerHeight / 2 : window.innerWidth / 2;
       bannerHeight = bannerHeight > 300 ? bannerHeight : 300;
-      var mobileVersion = bannerHeight <= 300 || navigator.platform.indexOf('iPad') !== -1;
+      var mobileVersion = bannerHeight <= 300 || navigator.platform.indexOf('MacIntel') !== -1;
     if (this.props.sharedData) {
       var name = this.props.sharedData.name;
       this.titles = this.props.sharedData.titles.map(x => [ x.toUpperCase(), 1500 ] ).flat();
@@ -59,7 +51,7 @@ class Header extends Component {
           alignItems: 'center',
         }}
       >
-        {bannerHeight > 400 && <div>
+        {!mobileVersion && <div>
           <h1 style={{ color: "#f4f4f4", margin: '0 auto', marginTop: 10, fontSize: '350%', textAlign: 'center' }}>
             <span>About me</span>
           </h1>
