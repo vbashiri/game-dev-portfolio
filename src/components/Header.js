@@ -22,7 +22,7 @@ class Header extends Component {
     calculateBannerHeight(height, width) {
         var bannerHeight = height < width ? height / 3 : width / 2;
         bannerHeight = bannerHeight > 300 ? bannerHeight : 300;
-        var mobileVersion = bannerHeight <= 300 || navigator.platform.indexOf('MacIntel') !== -1;
+        var mobileVersion = bannerHeight <= 300 || ((width < (height + 100) * 3 / 4) && width < 1500);
         this.setState({windowInnerHeight: height, bannerSize: bannerHeight, mobileVersion});
     }
 
@@ -127,7 +127,7 @@ class Header extends Component {
               }}
             >
             <span style={{ fontSize: '2.3vh' }}>
-                A passionate game developer who have over 7 years of experience in software engineering and worked 5 years dedicatedly making games using Unity engine. Thrive on collaborative teamwork and have led small multi-disciplinary teams with different skill levels to deliver polished games. While having a solid command of C# and Unity, have experience with C++ and Unreal engine, and always welcome new challenges and opportunities to learn.
+                Passionate game developer who have over 7 years of experience in software engineering and worked 5 years dedicatedly making games using Unity engine. Thrive on collaborative teamwork and have led small multi-disciplinary teams with different skill levels to deliver polished games. Have experience developing android libraries as well as Unity tools to ease game production and always welcome new challenges and opportunities to learn.
                 Have a look at my technical articles in <a style={{color: "#AE944F"}} href={"https://medium.com/@vbashiri1995"}>Medium</a>.
             </span>
             </h3>
