@@ -27,7 +27,7 @@ class Banner extends Component {
     }
 
     calculateBannerHeight(height, width) {
-        var bannerHeight = height < width ? height / 3 : width / 2;
+        var bannerHeight = height < width ? height > 900 ? 480:  height / 3 : width / 2;
         bannerHeight = bannerHeight > 300 ? bannerHeight : 300;
         this.setState({bannerSize: bannerHeight});
     }

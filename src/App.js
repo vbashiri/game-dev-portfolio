@@ -15,6 +15,7 @@ import Sketches from "./components/Sketches";
 import iis from "./assets/images/experience/iis.png";
 import colony from "./assets/images/experience/colony11.png";
 import funtory from "./assets/images/experience/funtory.png";
+import magrid from  "./assets/images/experience/magrid.png"
 import moolfa from "./assets/images/experience/moolfa.png"
 import sut from "./assets/images/experience/sut.png";
 
@@ -82,7 +83,7 @@ import strygwyr from "./assets/images/arts/concept-art/Strygwyr.JPG";
 import nightmare from "./assets/images/arts/concept-art/Nightmare.jpg";
 import stunningLook from "./assets/images/arts/concept-art/StunningLook.jpg";
 import ged from "./assets/images/arts/concept-art/Ged.jpg";
-import niloo from "./assets/images/arts/concept-art/Niloo.jpg";
+import wanderer from "./assets/images/arts/concept-art/Wanderer.JPG";
 
 
 import parallexBackground from "./assets/images/arts/concept-art/Ged.jpg";
@@ -93,13 +94,20 @@ class App extends Component {
     super();
     this.state = {
       windowInnerHeight: window.innerHeight,
-      foo: "bar",
       resumeData: {
         experience: [
           {
+            technologies: ["MAGRID - Early Learning Application"],
+            mainTech: ["Unity", "C#"],
+            years: "2023.7 - Now",
+            title: "Game Developer",
+            company: "Magrid",
+            companyIcon: magrid,
+          },
+          {
             technologies: ["Jump Up", "Ninja Magic", "My Monster Pet"],
             mainTech: ["Unity", "C#"],
-            years: "2021.5 - Now",
+            years: "2021.5 - 2023.10",
             title: "Game Developer",
             company: "Funtory",
             companyIcon: funtory,
@@ -158,6 +166,17 @@ class App extends Component {
               hashtkhan3
             ],
             youtube: "buiB7j0_QEI",
+            startDate: 2023,
+          },
+		  {
+            title: "Magrid",
+            url: "https://magrid.education/",
+            description: "o    Developed a shared library between client and server\n" +
+                "o    Developed an editor to design new levels and games\n",
+            thumbnail: magrid,
+            images: [
+            ],
+            youtube: "JgEvOqgHU9k",
             startDate: 2023,
           },
           {
@@ -304,11 +323,11 @@ class App extends Component {
             thumbnail: ged,
             images: [
               parandthe,
+			  wanderer,
               strygwyr,
               nightmare,
               stunningLook,
-              ged,
-              niloo
+              ged
             ],
           },
           ],
@@ -335,7 +354,7 @@ class App extends Component {
   }
 
   calculateBannerHeight(height, width) {
-    var bannerHeight = height < width ? height / 3 : width / 2;
+    var bannerHeight = height < width ? height > 900 ? 480:  height / 3 : width / 2;
     bannerHeight = bannerHeight > 300 ? bannerHeight : 300;
     var mobileVersion = bannerHeight <= 300 || navigator.platform.indexOf('MacIntel') !== -1;
     this.setState({windowInnerHeight: height, bannerSize: bannerHeight, mobileVersion});

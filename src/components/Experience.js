@@ -18,7 +18,8 @@ class Experience extends Component {
           return (
             <Badge
               pill
-              bg={"#AE944F"}
+              bg={"#E76F51"}
+              style={{margin: 5, backgroundColor: "#E76F51"}}
               className=" main-badge
               mt-xl-2 mt-md-2 mt-sm-2
               mr-xl-4 mr-md-3 mr-sm-2
@@ -52,7 +53,7 @@ class Experience extends Component {
             dateClassName="element-date"
             date={work.years}
             iconStyle={{
-              background: "#AE944F",
+              background: "#f9f5e9",
               color: "#fff",
               textAlign: "center",
             }}
