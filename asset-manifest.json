@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f2530793.css",
-    "main.js": "/portfolio/static/js/main.7810e796.js",
+    "main.css": "/portfolio/static/css/main.fc8507be.css",
+    "main.js": "/portfolio/static/js/main.3923934c.js",
     "static/media/gameplay1.png": "/portfolio/static/media/gameplay1.79e2f8f02300fc0e2117.png",
     "static/media/waterfall1.png": "/portfolio/static/media/waterfall1.8eb3d9529a4f9d40d5b3.png",
     "static/media/Strygwyr.JPG": "/portfolio/static/media/Strygwyr.5d4ed3fe26f0fe1a3443.JPG",
     "static/media/Nightmare.jpg": "/portfolio/static/media/Nightmare.989a7fb8f6ae91f10532.jpg",
-    "static/media/Niloo.jpg": "/portfolio/static/media/Niloo.ea245f8756b6d44fcca9.jpg",
     "static/media/waterfall2.png": "/portfolio/static/media/waterfall2.edac3b681e4a94713d44.png",
     "static/media/ParandThe.jpg": "/portfolio/static/media/ParandThe.7a4b7b098ce90c9e88c9.jpg",
     "static/media/mushroom.png": "/portfolio/static/media/mushroom.0a1311be43a6577f5fc0.png",
@@ -17,6 +16,7 @@
     "static/media/rebel_forground.gif": "/portfolio/static/media/rebel_forground.0a9f1e6753f823f6b6ed.gif",
     "static/media/Rebel4.png": "/portfolio/static/media/Rebel4.75e7d2f70c192b525102.png",
     "static/media/Rebel3.png": "/portfolio/static/media/Rebel3.d56930d0448e3764f2cb.png",
+    "static/media/Wanderer.JPG": "/portfolio/static/media/Wanderer.8d8e1effd1ab3d57a106.JPG",
     "static/media/jumpup2.jpg": "/portfolio/static/media/jumpup2.99e31d3d20d9b5ccd151.jpg",
     "static/media/Rebel1.png": "/portfolio/static/media/Rebel1.9de67c5cd818770d5246.png",
     "static/media/jumpup1.jpg": "/portfolio/static/media/jumpup1.34c3f5fa7a36efb9bae0.jpg",
@@ -49,14 +49,15 @@
     "static/media/sky.gif": "/portfolio/static/media/sky.4efb2d79d3ce9b7cabd6.gif",
     "static/media/Core.jpg": "/portfolio/static/media/Core.e341929a29f1e76e2382.jpg",
     "static/media/Rose.jpg": "/portfolio/static/media/Rose.20a8cf4320f0b051b008.jpg",
+    "static/media/magrid.png": "/portfolio/static/media/magrid.28842ca6aa9924f0ea1e.png",
     "static/media/playground_icon.jpg": "/portfolio/static/media/playground_icon.d86839260d70de054887.jpg",
     "static/media/f_cload1.png": "/portfolio/static/media/f_cload1.a97294774b2038220739.png",
     "index.html": "/portfolio/index.html",
-    "main.f2530793.css.map": "/portfolio/static/css/main.f2530793.css.map",
-    "main.7810e796.js.map": "/portfolio/static/js/main.7810e796.js.map"
+    "main.fc8507be.css.map": "/portfolio/static/css/main.fc8507be.css.map",
+    "main.3923934c.js.map": "/portfolio/static/js/main.3923934c.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2530793.css",
-    "static/js/main.7810e796.js"
+    "static/css/main.fc8507be.css",
+    "static/js/main.3923934c.js"
   ]
 }
